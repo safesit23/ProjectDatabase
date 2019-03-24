@@ -40,6 +40,25 @@
 
 -- Insert data to Animal Table by Run
 
+-- ----------------------- CREATE INDEX -----------------------
+
+-- Taxonomy Table by Nut
+
+
+-- Staff Table by Ryan
+
+
+-- Zone Table by Safe
+
+
+-- Area Table by Safe
+
+
+-- Management Table by Safe
+
+
+-- Animal Table by Run
+
 
 -- ----------------------- CREATE ROLE -----------------------
 
