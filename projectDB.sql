@@ -6,6 +6,7 @@
 
 --create table by ryan
 select eiei from eiei;
+dfdfadsf
 
 
 --create table by nut
