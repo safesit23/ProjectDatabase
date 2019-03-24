@@ -9,6 +9,7 @@ update table set column = 'value' where column = 'xx';
 
 --create table by ryan
 select eiei from eiei;
+dfdfadsf
 
 
 --create table by nut
