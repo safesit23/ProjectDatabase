@@ -10,7 +10,7 @@ dfdfadsf
 
 
 --create table by nut
-
+SELECT * FROM propertyforrent where city = 'Glasgow';
 
 -- create table by run
 select ohyeah from oho;
