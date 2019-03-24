@@ -5,6 +5,7 @@
 
 
 --create table by ryan
+select eiei from eiei;
 
 
 --create table by nut
