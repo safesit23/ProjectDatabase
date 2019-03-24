@@ -12,3 +12,4 @@ select eiei from eiei;
 
 
 -- create table by run
+select ohyeah from oho;
