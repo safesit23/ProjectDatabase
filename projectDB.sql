@@ -2,7 +2,7 @@
 
 
 --create table by safe
-
+SELECT * FROM propertyforrent where city = 'Glasgow';
 
 --create table by ryan
 
