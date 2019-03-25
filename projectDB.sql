@@ -1,5 +1,10 @@
 -- ----------------------- DROP TABLE ----------------------- 
-
+drop table TAXONOMY cascade constraints;
+drop table STAFF cascade constraints;
+drop table ZONE cascade constraints;
+drop table AREA cascade constraints;
+drop table MANAGEMENT cascade constraints;
+drop table ANIMAL cascade constraints;
 
 -- ----------------------- CREATE TABLE -----------------------
 
