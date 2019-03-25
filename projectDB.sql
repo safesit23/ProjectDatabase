@@ -59,7 +59,7 @@ create table MANAGEMENT(
 
 
 -- Insert data to Zone Table by Safe
-
+insert into ZONE values('zoneid','zonename','zonedetails','zonesize');
 
 -- Insert data to Area Table by Safe
 
