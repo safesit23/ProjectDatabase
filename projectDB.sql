@@ -25,7 +25,15 @@ create table ZONE(
 );
 
 -- Create Area Table by Safe
+create table AREA(
+    areaid		varchar2(6),
+    zonesize    varchar2(20)    not null,
+    zoneid		varchar2(5),
+    zonename    varchar2(80)    not null,
 
+    CONSTRAINT  area_arzid_pk  PRIMARY KEY (areaid,zoneid),
+    CONSTRAINT  area_zoneid_fk  FOREIGN KEY (zoneid) REFERENCES ZONE
+);
 
 -- Create Management Table by Safe
 
