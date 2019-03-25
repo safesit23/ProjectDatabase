@@ -36,7 +36,16 @@ create table AREA(
 );
 
 -- Create Management Table by Safe
+create table MANAGEMENT(
+    areaid		varchar2(6),
+    zoneid		varchar2(5),
+    staffid     number(5),
 
+    CONSTRAINT  management_id_pk  PRIMARY KEY (areaid,zoneid,staffid),
+    CONSTRAINT  management_areaid_fk  FOREIGN KEY (areaid) REFERENCES AREA,
+    CONSTRAINT  management_zoneid_fk  FOREIGN KEY (zoneid) REFERENCES ZONE,
+    CONSTRAINT  management_staffid_fk  FOREIGN KEY (staffid) REFERENCES STAFF
+);
 
 -- Create Animal Table by Run
 
