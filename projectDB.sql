@@ -15,7 +15,14 @@ drop table ANIMAL cascade constraints;
 
 
 -- Create Zone Table by Safe
+create table ZONE(
+    zoneid		varchar2(5),
+    zonename    varchar2(80)    not null,
+    zonedetails varchar2(200)   not null,
+    zonesize    varchar2(20)    not null,
 
+    CONSTRAINT  zone_zoneid_pk  PRIMARY KEY (zoneid)
+);
 
 -- Create Area Table by Safe
 
