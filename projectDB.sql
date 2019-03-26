@@ -9,6 +9,13 @@ drop table ANIMAL cascade constraints;
 -- ----------------------- CREATE TABLE -----------------------
 
 -- Create Taxonomy Table by Nut
+create table Taxonomy(
+TaxonomyId varchar2(5),
+TaxonomyName varchar2(100)  not null,
+Food varchar2(50)   not null,
+Description varchar2(2000)  not null,
+CONSTRAINT taxonomy_taxonomyid_pk PRIMARY KEY (TaxonomyId)
+);
 
 
 -- Create Staff Table by Ryan
