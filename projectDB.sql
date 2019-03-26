@@ -91,10 +91,10 @@ create table Animal (
 
 
 -- Insert data to Zone Table by Safe
-insert into ZONE values('zoneid','zonename','zonedetails','zonesize');
+insert into ZONE values('Z0001','AquaZone','This zone is Aqua','200 sq.m.');
 
 -- Insert data to Area Table by Safe
-
+insert into AREA values('AR0001','10 sq.m.','Z0001','AquaZone');
 
 -- Insert data to Management Table by Safe
 
