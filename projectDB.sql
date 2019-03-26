@@ -95,6 +95,8 @@ insert into ZONE values('zoneid','zonename','zonedetails','zonesize');
 
 
 -- Insert data to Animal Table by Run
+INSERT into Animal
+values ();
 
 -- ----------------------- CREATE INDEX -----------------------
 
