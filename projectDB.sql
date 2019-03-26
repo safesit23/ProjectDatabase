@@ -27,7 +27,7 @@ create table STAFF(
     position    varchar2(50),
     salary      Number(8)        not null,
 
-    CONSTRAINT  staff_staffid_pk PRIMARY KEY (staffid)
+    CONSTRAINT  staff_staffid_pk PRIMARY KEY (staffid),
     CONSTRAINT  staff_gender_ck check (gender = 'M' or gender = 'F')
 );
 
