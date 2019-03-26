@@ -59,6 +59,21 @@ create table MANAGEMENT(
 );
 
 -- Create Animal Table by Run
+create table Animal (
+    AnimalId varchar2(5),
+    AnimalName varchar2(40) not null,
+    Age number(3),
+    Gender char(1) ['M','F'],
+    DOB date,
+    Type varchar2(40) not null,
+    Symthom varchar2(100),
+    AreaId varchar2(60) not null,
+    TaxonomyId varchar2(50) not null
+    CONSTRAINT Animal_PK primary key(AnimalId,AnimalName),
+    CONSTRAINT Animal_AreaId_FK1 FOREIGN KEY (AreaId) REFERENCES Area(AreaId),
+    CONSTRAINT Animal_TaxonomyId_FK2 FOREIGN KEY (TaxonomyId) REFERENCES Taxonomy(TaxonomyId),
+    CONSTRAINT Animal_Gender_check check(Gender in ('M', 'F'))
+);
 
 
 -- ----------------------- INSERT DATA -----------------------
