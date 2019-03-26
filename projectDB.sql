@@ -12,6 +12,17 @@ drop table ANIMAL cascade constraints;
 
 
 -- Create Staff Table by Ryan
+create table STAFF(
+    staffid     Number(5),
+    staffname   Varchar2(90)     not null,
+    gender      char(1)          not null,
+    tel         varchar2(10),
+    position    varchar2(50),
+    salary      Number(8)        not null,
+
+    CONSTRAINT  staff_staffid_pk PRIMARY KEY (staffid)
+    CONSTRAINT  staff_gender_ck check (gender = 'M' or gender = 'F')
+);
 
 
 -- Create Zone Table by Safe
