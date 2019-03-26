@@ -45,11 +45,11 @@ create table ZONE(
 -- Create Area Table by Safe
 create table AREA(
     areaid		varchar2(6),
-    zonesize    varchar2(20)    not null,
+    areasize    varchar2(20)    not null,
     zoneid		varchar2(5),
     zonename    varchar2(80)    not null,
 
-    CONSTRAINT  area_arzid_pk  PRIMARY KEY (areaid,zoneid),
+    CONSTRAINT  area_areaid_pk  PRIMARY KEY (areaid),
     CONSTRAINT  area_zoneid_fk  FOREIGN KEY (zoneid) REFERENCES ZONE
 );
 
@@ -68,7 +68,7 @@ create table MANAGEMENT(
 -- Create Animal Table by Run
 create table Animal (
     AnimalId    varchar2(5),
-    AnimalName  varchar2(40) not null,
+    AnimalName  varchar2(40),
     Age         number(3),
     Gender      char(1),
     DOB         date,
@@ -76,7 +76,7 @@ create table Animal (
     Symthom     varchar2(100),
     AreaId      varchar2(60) not null,
     TaxonomyId  varchar2(50) not null,
-    
+
     CONSTRAINT Animal_PK primary key(AnimalId,AnimalName),
     CONSTRAINT Animal_AreaId_FK1 FOREIGN KEY (AreaId) REFERENCES Area(AreaId),
     CONSTRAINT Animal_TaxonomyId_FK2 FOREIGN KEY (TaxonomyId) REFERENCES Taxonomy(TaxonomyId),
