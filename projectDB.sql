@@ -92,9 +92,17 @@ create table Animal (
 
 -- Insert data to Zone Table by Safe
 insert into ZONE values('Z0001','AquaZone','This zone is Aqua','200 sq.m.');
+insert into ZONE values('Z0002','BirdZone','This zone is Bird','800 sq.m.');
+insert into ZONE values('Z0003','WildZone','This zone is Wild','1200 sq.m.');
+insert into ZONE values('Z0004','ReptileZone','This zone is Reptile','200 sq.m.');
+insert into ZONE values('Z0005','AfricaZone','This zone is Africa','2000 sq.m.');
 
 -- Insert data to Area Table by Safe
-insert into AREA values('AR0001','10 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1001','10 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1002','20 sq.m.','Z0001','AquaZone');
+
+insert into AREA values('AR2001','600 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2002','200 sq.m.','Z0002','BirdZone');
 
 -- Insert data to Management Table by Safe
 
