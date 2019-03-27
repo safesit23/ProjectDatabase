@@ -85,6 +85,7 @@ create table Animal (
 -- ----------------------- INSERT DATA -----------------------
 
 -- Insert data to Taxonomy Table by Nut
+--insert into Taxonomy values(TaxonomyId,TaxonomyName,Food,Description)
 insert into Taxonomy values('T0001','Potamotrygon motoro','Waterworm,
 Red worm,Small shrimp','The motoro is one of three main species of the Potamotrygonidae family. The three main genera of freshwater stingrays from South America are Potamotrygon');
 
