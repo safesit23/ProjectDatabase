@@ -114,6 +114,9 @@ insert into AREA values('AR2002','200 sq.m.','Z0002','BirdZone');
 
 -- Insert data to Management Table by Safe
 --insert into Management values(areaid,staffid)
+insert into MANAGEMENT values ('AR1001','1002');
+insert into MANAGEMENT values ('AR1002','1002');
+insert into MANAGEMENT values ('AR1001','1006');
 
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
