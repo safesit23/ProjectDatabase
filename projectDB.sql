@@ -86,8 +86,12 @@ create table Animal (
 
 -- Insert data to Taxonomy Table by Nut
 --insert into Taxonomy values(TaxonomyId,TaxonomyName,Food,Description)
-insert into Taxonomy values('T0001','Potamotrygon motoro','Waterworm,
-Red worm,Small shrimp','The motoro is one of three main species of the Potamotrygonidae family. The three main genera of freshwater stingrays from South America are Potamotrygon');
+insert into Taxonomy values('T0001','Potamotrygon motoro','Waterworm,Red worm,Small shrimp','The motoro is one of three main species of the Potamotrygonidae family. The three main genera of freshwater stingrays from South America are Potamotrygon');
+insert into Taxonomy values('T0002','Chiloscyllium punctatum','shrimp,crab','Chiloscyllium punctatum is a bamboo shark in the family Hemiscylliidae found in the Indo-West Pacific from Japan to northern Australia');
+insert into Taxonomy values('T0003','Ginglymostoma cirratum','Frozen fish mackerel, smelt, and herring','Ginglymostoma cirratum is an elasmobranch fish within the family Ginglymostomatidae. They are directly targeted in some fisheries and considered as bycatch in others');
+
+
+
 
 -- Insert data to Staff Table by Ryan
 insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1001,'Nutnrong','F','0123456789','Manager',50000);
@@ -123,17 +127,17 @@ insert into MANAGEMENT values ('AR1001','1006');
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
 --    AnimalId, AnimalName, Age, Gender, DOB, Type, Symthom, AreaId, TaxonomyId
-INSERT into Animal values ('AN001','Aby',1,'M','15-MAR-2017','Motoro Ray',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN002','Arm',1,'F','15-MAR-2017','Motoro Ray',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN003','Aod',1,'F','10-JAN-2017','Motoro Ray',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN004','Dee',3,'M','15-MAR-2016','Banded Cat Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN005','Doo',3,'F','11-JUL-2016','Banded Cat Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN006','Bunny',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN007','Bee',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN008','Boo',2,'M','01-MAR-2017','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN009','Bye',5,'M','01-OCT-2014','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN010','Bi',4,'F','08-DEC-2015','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN010','Bike',6,'M','08-DEC-2013','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN001','Aby',1,'M','15-03-2017','Motoro Ray',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN002','Arm',1,'F','15-03-2017','Motoro Ray',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN003','Aod',1,'F','10-01-2017','Motoro Ray',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN004','Dee',3,'M','15-03-2016','Banded Cat Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN005','Doo',3,'F','11-07-2016','Banded Cat Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN006','Bunny',2,'F','10-10-2017','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN007','Bee',2,'F','10-10-2017','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN008','Boo',2,'M','01-03-2017','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN009','Bye',5,'M','01-10-2014','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN010','Bi',4,'F','08-12-2015','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN010','Bike',6,'M','08-12-2013','Nurse Shark',NULL,'AR1001','T0001');
 
 -- ----------------------- CREATE INDEX -----------------------
 
