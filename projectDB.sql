@@ -88,6 +88,12 @@ create table Animal (
 
 
 -- Insert data to Staff Table by Ryan
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1001','Nutnrong','0123456789','Manager','50,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1002','Zoro','1234567890','Zookeeper','50,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1003','Nami','1123456789','Information','50,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1004','Luffy','1112345678','Vet','50,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1005','Sanji','1111234567','Zookeeper','50,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1006','Franky','1111123456','Cleaner','50,000');
 
 
 -- Insert data to Zone Table by Safe
