@@ -85,16 +85,17 @@ create table Animal (
 -- ----------------------- INSERT DATA -----------------------
 
 -- Insert data to Taxonomy Table by Nut
+--insert into Taxonomy values(TaxonomyId,TaxonomyName,Food,Description)
 insert into Taxonomy values('T0001','Potamotrygon motoro','Waterworm,
 Red worm,Small shrimp','The motoro is one of three main species of the Potamotrygonidae family. The three main genera of freshwater stingrays from South America are Potamotrygon');
 
 -- Insert data to Staff Table by Ryan
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1001','Nutnrong','0123456789','Manager','50,000');
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1002','Zoro','1234567890','Zookeeper','12,000');
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1003','Nami','1123456789','Information','10,000');
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1004','Luffy','1112345678','Vet','30,000');
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1005','Sanji','1111234567','Zookeeper','12,000');
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1006','Franky','1111123456','Cleaner','11,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1001','Nutnrong','F','0123456789','Manager','50,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1002','Zoro','M','1234567890','Zookeeper','12,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1003','Nami','F','1123456789','Information','10,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1004','Luffy','M','1112345678','Vet','30,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1005','Sanji','M','1111234567','Zookeeper','12,000');
+insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1006','Franky','M','1111123456','Cleaner','11,000');
 
 
 -- Insert data to Zone Table by Safe
