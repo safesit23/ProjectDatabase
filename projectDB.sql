@@ -86,7 +86,7 @@ create table Animal (
 
 -- Insert data to Taxonomy Table by Nut
 insert into Taxonomy values('T0001','Potamotrygon motoro','Waterworm,
-Red worm,Small shrimp','The motoro is one of three main species of the Potamotrygonidae family. The three main genera of freshwater stingrays from South America are Potamotrygon')
+Red worm,Small shrimp','The motoro is one of three main species of the Potamotrygonidae family. The three main genera of freshwater stingrays from South America are Potamotrygon');
 
 -- Insert data to Staff Table by Ryan
 insert into STAFF (staffid,staffname,gender, tel, position, salary) values('1001','Nutnrong','0123456789','Manager','50,000');
