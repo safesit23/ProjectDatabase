@@ -109,17 +109,18 @@ insert into AREA values('AR2002','200 sq.m.','Z0002','BirdZone');
 
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
-INSERT into Animal values ("AN001","Motoro Ray","1","M","15-3-2017","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN002","Motoro Ray","1","F","15-3-2017","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN003","Motoro Ray","1","F","10-1-2017","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN004","Banded Cat Shark","3","M","15-3-2016","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN005","Banded Cat Shark","3","F","11-7-2016","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN006","Nurse Shark","2","F","10-10-2017","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN007","Nurse Shark","2","F","10-10-2017","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN008","Nurse Shark","2","M","01-03-2017","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN009","Nurse Shark","5","M","01-10-2014","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN010","Nurse Shark","4","F","08-12-2015","Fish",NULL,"AR1001",TaxonomyId);
-INSERT into Animal values ("AN010","Nurse Shark","6","M","08-12-2013","Fish",NULL,"AR1001",TaxonomyId);
+--    AnimalId, AnimalName, Age, Gender, DOB, date, Type, Symthom, AreaId, TaxonomyId
+INSERT into Animal values ("AN001","A","1","M","15-3-2017","Motoro Ray",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN002","B","1","F","15-3-2017","Motoro Ray",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN003","C","1","F","10-1-2017","Motoro Ray",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN004","D","3","M","15-3-2016","Banded Cat Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN005","E","3","F","11-7-2016","Banded Cat Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN006","F","2","F","10-10-2017","Nurse Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN007","G","2","F","10-10-2017","Nurse Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN008","H","2","M","01-03-2017","Nurse Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN009","I","5","M","01-10-2014","Nurse Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN010","J","4","F","08-12-2015","Nurse Shark",NULL,"AR1001",TaxonomyId);
+INSERT into Animal values ("AN010","K","6","M","08-12-2013","Nurse Shark",NULL,"AR1001",TaxonomyId);
 
 -- ----------------------- CREATE INDEX -----------------------
 
