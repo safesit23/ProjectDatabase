@@ -91,15 +91,15 @@ insert into Taxonomy values('T0002','Chiloscyllium punctatum','shrimp,crab','Chi
 insert into Taxonomy values('T0003','Ginglymostoma cirratum','Frozen fish mackerel, smelt, and herring','Ginglymostoma cirratum is an elasmobranch fish within the family Ginglymostomatidae. They are directly targeted in some fisheries and considered as bycatch in others');
 insert into Taxonomy values('T0004','Protopterus annectens','krill','There are four African lungfish species. The P.anncetens, however is the most common in aquariums.They are considered to be fearless and they will attack almost anything that moves');
 insert into Taxonomy values('T0005','Sciaenops ocellatus','shrimp, crustaceans, small fish, meal',' The Redfish is notorious as a bottom feeding animal.  However, it can also be seen on the surface, feeding on schools of fingerling baitfish.  It prefers shallow grass beds and and structures where small fish and crustaceans are abundant');
-insert into Taxonomy values('T0006','aa','Food','Des');
-insert into Taxonomy values('T0007','aa','Food','Des');
-insert into Taxonomy values('T0008','aa','Food','Des');
-insert into Taxonomy values('T0009','aa','Food','Des');
-insert into Taxonomy values('T0010','aa','Food','Des');
-insert into Taxonomy values('T0011','aa','Food','Des');
-insert into Taxonomy values('T0012','aa','Food','Des');
-insert into Taxonomy values('T0013','aa','Food','Des');
-insert into Taxonomy values('T0014','aa','Food','Des');
+insert into Taxonomy values('T0006','Cyprinodon pecosensis','algae & mineral,rock fragments.','DesThe Pecos pupfish can usually be found and seems to thrive in saline bodies of water that contain a limited number of other fish species. It occasionally lives in fresher waters, but that is uncommon in such habitats. In the saline habitats, populations can be very dense.');
+insert into Taxonomy values('T0007','Anableps (Anablepidae)','Insects','There are three species in the genus Anableps.The species found in the James R. Record Aquarium is Anableps anableps.  The genus belongs to the order Cyprinodontes, small, often colorful livebearing fish with complex behaviors.  The famous desert pupfish is also in this order.  Anableps is found in coastal waters from the Yucatan peninsula to the equator.');
+insert into Taxonomy values('T0008','Gobioides broussonetti','Chopped Fish, Prawns','Dragon Fish live in brackish water. This means that the water is a mix of salt and fresh water. They are very peaceful even though they sometimes might appear to be lethal predators. This fish is really ugly but it is still very interesting, almost charming.');
+insert into Taxonomy values('T0009','Parabuteo unicinctus','The Harris Hawk feeds on hares, rabbits, birds, and lizards.','Medium size: about 18 inches. Weight is about 565-2000 g. Long tail and broad wings. Its color is dark brown with sienna shoulders, underwings and thighs.White feathers under the tail. (Grossman, Hamlet 281).');
+insert into Taxonomy values('T0010','Stephanoaetus coronatus','Varanus lizards or large snakes, including venomous species.','The Crowned Eagle is very seldom seen inside the forest. Most of the time they perch on trees that overlook glades or water-holes. The normally perch in the early morning and evening so they can catch their prey off guard.  Much of their time is devoted to soaring over the forest awaiting their prey, which is normally a monkey that is feeding on tree-tops');
+insert into Taxonomy values('T0011','Circus cyaneus','insects, small reptiles, amphibians, rodents','The Northern Harrier is a slender bird with long wings, a long tail, yellow legs, an owl-like facial disk, a conspicuous white rump (that shows easily in flight), and yellow eyes.  Its wing span is 44 inches wide and the bird is between 17-24 inches in length.');
+insert into Taxonomy values('T0012','Spizaetus nipalensis','This raptors diet in the zoo consists of white field mice','The mountain hawk eagle is one of the most voracious raptors in the world. They sit upon a concealed perch high in the forrest to observe the unsuspecting ground quarry, then move down to a lower branch to make a short and fast swoop');
+insert into Taxonomy values('T0013','Cygnus atratus','Aquatic vegetation and tidal grasses and grains','”Atratus” translates into “dressed in black.” Therefore, the body plumage of the black swan is black with white distal secondary and primary feathers on the wings that can be seen only when the bird is in flight.');
+insert into Taxonomy values('T0014','Anodorhynchus hyacinthinus','Various nuts','Hyacinths live in the wild as mated pairs and remain constant from season to season.They also live in family groups that consist of the parents and their offspring.  The Hyacinth are seasonal breeders, breeding after the rainy season.  The rainy season is usually from August and December.');
 
 
 -- Insert data to Staff Table by Ryan //zookeeper 29 vet 7 information 10 cleaner 13 Manager 1
@@ -199,7 +199,7 @@ INSERT into Animal values ('AN001','Aby',1,'M','15-MAR-2017','Motoro Ray','Birdf
 INSERT into Animal values ('AN002','Arm',1,'F','15-MAR-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN003','Aod',1,'F','10-JAN-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN004','Dee',3,'M','15-MAR-2016','Banded Cat Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN005','Doo',3,'F','11-07-2016','Banded Cat Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN005','Doo',3,'F','11-JUL-2016','Banded Cat Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN006','Bunny',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN007','Bee',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN008','Boo',2,'M','01-MAR-2017','Nurse Shark',NULL,'AR1001','T0001');
