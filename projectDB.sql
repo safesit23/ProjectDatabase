@@ -103,71 +103,71 @@ insert into Taxonomy values('T0014','aa','Food','Des');
 
 
 -- Insert data to Staff Table by Ryan //zookeeper 29 vet 7 information 10 cleaner 13 Manager 1
-insert into STAFF values(1001,'Nutnrong','F','0860240993','Manager',50000);
-insert into STAFF values(1002,'Zoro','M','0880174765','Zookeeper',12000); --Zookeeper 29
-insert into STAFF values(1003,'Nami','F','0803742891','Information',10000); --Infromation 10
-insert into STAFF values(1004,'Luffy','M','0828599562','Vet',30000); --Vet 7
-insert into STAFF values(1005,'Sanji','M','0844612172','Zookeeper',12000);
-insert into STAFF values(1006,'Franky','M','0855680441','Cleaner',11000); --Cleaner 3
+insert into STAFF values(1001,'Nutnrong Yukittichai','F','0860240993','Manager',50000);
+insert into STAFF values(1002,'Roronoa Zoro','M','0880174765','Zookeeper',12000); --Zookeeper 29
+insert into STAFF values(1003,'Nico Robin','F','0803742891','Information',10000); --Infromation 10
+insert into STAFF values(1004,'Monkey Luffy','M','0828599562','Vet',30000); --Vet 7
+insert into STAFF values(1005,'Vinsmoke Sanji','M','0844612172','Zookeeper',12000);
+insert into STAFF values(1006,'Tony Chopper','M','0855680441','Cleaner',11000); --Cleaner 3
 
-insert into STAFF values(1007,'Amaan','F','0866040046','Zookeeper',12000);
-insert into STAFF values(1008,'Zayyan','F','0892758161','Information',10000);
-insert into STAFF values(1009,'Rares','F','0802142004','Zookeeper',12000);
-insert into STAFF values(1010,'Valerie','F','0832319706','Vet',30000);
-insert into STAFF values(1011,'Kody','M','0825274252','Vet',30000);
-insert into STAFF values(1012,'Amy','F','0890268960','Zookeeper',12000);
-insert into STAFF values(1013,'Shivani','F','0832570948','Vet',30000);
-insert into STAFF values(1014,'Ilayda','F','0837218341','Zookeeper',12000);
-insert into STAFF values(1015,'Zubair','F','0837943345','Zookeeper',12000);
-insert into STAFF values(1016,'Elisabeth','F','0853921893','Vet',30000);
-insert into STAFF values(1017,'Dexter','M','0875652638','Zookeeper',12000);
-insert into STAFF values(1018,'Dominykas','M','0876652247','Information',10000);
-insert into STAFF values(1019,'Mikaeel','F','0884692062','Zookeeper',12000);
-insert into STAFF values(1020,'Kester','M','0863950124','Information',10000);
+insert into STAFF values(1007,'Amaan Senior','F','0866040046','Zookeeper',12000);
+insert into STAFF values(1008,'Zayyan Bruce','F','0892758161','Information',10000);
+insert into STAFF values(1009,'Rares Harrington','F','0802142004','Zookeeper',12000);
+insert into STAFF values(1010,'Valerie Hamer','F','0832319706','Vet',30000);
+insert into STAFF values(1011,'Kody Bannister','M','0825274252','Vet',30000);
+insert into STAFF values(1012,'Amy Pearce','F','0890268960','Zookeeper',12000);
+insert into STAFF values(1013,'Shivani Robinson','F','0832570948','Vet',30000);
+insert into STAFF values(1014,'Ilayda Stokes','F','0837218341','Zookeeper',12000);
+insert into STAFF values(1015,'Zubair Greenaway','F','0837943345','Zookeeper',12000);
+insert into STAFF values(1016,'Elisabeth Harding','F','0853921893','Vet',30000);
+insert into STAFF values(1017,'Dexter Barry','M','0875652638','Zookeeper',12000);
+insert into STAFF values(1018,'Dominykas Dunn','M','0876652247','Information',10000);
+insert into STAFF values(1019,'Mikaeel Wicks','F','0884692062','Zookeeper',12000);
+insert into STAFF values(1020,'Kester Mcfarland','M','0863950124','Information',10000);
 
-insert into STAFF values(1021,'Pia','M','0867592276','Vet',30000);
-insert into STAFF values(1022,'Varun','M','0858119997','Cleaner',11000);
-insert into STAFF values(1023,'Jarrod','M','0845070224','Cleaner',11000);
-insert into STAFF values(1024,'Saskia','M','0883242924','Vet',30000);
-insert into STAFF values(1025,'Ayda','F','0845490987','Zookeeper',12000);
-insert into STAFF values(1026,'Eamonn','M','0841774291','Cleaner',11000);
-insert into STAFF values(1027,'Elissa','F','0882355829','Zookeeper',12000);
-insert into STAFF values(1028,'Alessio','M','0874380317','Cleaner',11000);
-insert into STAFF values(1029,'Nylah','F','0897094801','Zookeeper',12000);
-insert into STAFF values(1030,'Kristina','F','0882526614','Information',10000);
+insert into STAFF values(1021,'Pia Frye','M','0867592276','Vet',30000);
+insert into STAFF values(1022,'Varun Lynn','M','0858119997','Cleaner',11000);
+insert into STAFF values(1023,'Jarrod Mckay','M','0845070224','Cleaner',11000);
+insert into STAFF values(1024,'Saskia Sweet','M','0883242924','Vet',30000);
+insert into STAFF values(1025,'Ayda Farmer','F','0845490987','Zookeeper',12000);
+insert into STAFF values(1026,'Eamonn Rigby','M','0841774291','Cleaner',11000);
+insert into STAFF values(1027,'Elissa Stark','F','0882355829','Zookeeper',12000);
+insert into STAFF values(1028,'Alessio Hall','M','0874380317','Cleaner',11000);
+insert into STAFF values(1029,'Nylah Rooney','F','0897094801','Zookeeper',12000);
+insert into STAFF values(1030,'Kristina Langley','F','0882526614','Information',10000);
 
-insert into STAFF values(1031,'Stan','M','0890734191','Zookeeper',12000);
-insert into STAFF values(1032,'Isaak','M','0812792649','Cleaner',11000);
-insert into STAFF values(1033,'Eman','M','0811846961','Information',10000);
-insert into STAFF values(1034,'Cari','F','0899996786','Zookeeper',12000);
-insert into STAFF values(1035,'Antoni','M','0816791685','Cleaner',11000);
-insert into STAFF values(1036,'Lexi','F','0826565714','Zookeeper',12000);
-insert into STAFF values(1037,'Braiden','M','0885970985','Information',10000);
-insert into STAFF values(1038,'Rufus','M','0889662487','Zookeeper',12000);
-insert into STAFF values(1039,'Hania','F','0884903834','Zookeeper',12000);
-insert into STAFF values(1040,'Mirza','F','0816287350','Information',10000);
+insert into STAFF values(1031,'Stan Haas','M','0890734191','Zookeeper',12000);
+insert into STAFF values(1032,'Isaak Piper','M','0812792649','Cleaner',11000);
+insert into STAFF values(1033,'Eman Heath','M','0811846961','Information',10000);
+insert into STAFF values(1034,'Cari Booker','F','0899996786','Zookeeper',12000);
+insert into STAFF values(1035,'Antoni Choi','M','0816791685','Cleaner',11000);
+insert into STAFF values(1036,'Lexi Romero','F','0826565714','Zookeeper',12000);
+insert into STAFF values(1037,'Braiden Oakley','M','0885970985','Information',10000);
+insert into STAFF values(1038,'Rufus Schwartz','M','0889662487','Zookeeper',12000);
+insert into STAFF values(1039,'Hania Gill','F','0884903834','Zookeeper',12000);
+insert into STAFF values(1040,'Mirza Powers','F','0816287350','Information',10000);
 
-insert into STAFF values(1041,'Aniela','F','0875282325','Zookeeper',12000);
-insert into STAFF values(1042,'Amirah','F','0862459790','Cleaner',11000);
-insert into STAFF values(1043,'Faizaan','M','0858699822','Information',10000);
-insert into STAFF values(1044,'Huseyin','M','0802071829','Zookeeper',12000);
-insert into STAFF values(1045,'Arandeep','M','0871164428','Information',10000);
-insert into STAFF values(1046,'Giselle','F','0823507883','Zookeeper',12000);
-insert into STAFF values(1047,'Rose','F','0806925039','Zookeeper',12000);
-insert into STAFF values(1048,'Willem','M','0856014472','Cleaner',11000);
-insert into STAFF values(1049,'Mimi','F','0873525003','Cleaner',11000);
-insert into STAFF values(1050,'Iylah','M','0845411057','Cleaner',11000);
+insert into STAFF values(1041,'Aniela Chang','F','0875282325','Zookeeper',12000);
+insert into STAFF values(1042,'Amirah Stein','F','0862459790','Cleaner',11000);
+insert into STAFF values(1043,'Faizaan Bains','M','0858699822','Information',10000);
+insert into STAFF values(1044,'Huseyin Nichols','M','0802071829','Zookeeper',12000);
+insert into STAFF values(1045,'Arandeep Povey','M','0871164428','Information',10000);
+insert into STAFF values(1046,'Giselle Ray','F','0823507883','Zookeeper',12000);
+insert into STAFF values(1047,'Rose Velazquez','F','0806925039','Zookeeper',12000);
+insert into STAFF values(1048,'Willem Pena','M','0856014472','Cleaner',11000);
+insert into STAFF values(1049,'Mimi Levy','F','0873525003','Cleaner',11000);
+insert into STAFF values(1050,'Iylah Chambers','M','0845411057','Cleaner',11000);
 
-insert into STAFF values(1051,'Billy','M','0862220721','Zookeeper',12000);
-insert into STAFF values(1052,'Taliyah','M','0876534837','Cleaner',11000);
-insert into STAFF values(1053,'Tobi','M','0899788530','Zookeeper',12000);
-insert into STAFF values(1054,'Aliesha','F','0894342841','Cleaner',11000);
-insert into STAFF values(1055,'Sanaya','F','0837635947','Zookeeper',12000);
-insert into STAFF values(1056,'Tatiana','F','0868221662','Zookeeper',12000);
-insert into STAFF values(1057,'Tim','M','0851683933','Zookeeper',12000);
-insert into STAFF values(1058,'Habiba','M','0832328991','Zookeeper',12000);
-insert into STAFF values(1059,'Cynthia','M','0832531110','Zookeeper',12000);
-insert into STAFF values(1060,'Beverly','F','0856481240','Zookeeper',12000);
+insert into STAFF values(1051,'Billy Plummer','M','0862220721','Zookeeper',12000);
+insert into STAFF values(1052,'Taliyah Lennon','M','0876534837','Cleaner',11000);
+insert into STAFF values(1053,'Tobi Mcdermott','M','0899788530','Zookeeper',12000);
+insert into STAFF values(1054,'Aliesha Drummond','F','0894342841','Cleaner',11000);
+insert into STAFF values(1055,'Sanaya Mcleod','F','0837635947','Zookeeper',12000);
+insert into STAFF values(1056,'Tatiana Reynolds','F','0868221662','Zookeeper',12000);
+insert into STAFF values(1057,'Tim Reilly','M','0851683933','Zookeeper',12000);
+insert into STAFF values(1058,'Habiba Jensen','M','0832328991','Zookeeper',12000);
+insert into STAFF values(1059,'Cynthia Mansell','M','0832531110','Zookeeper',12000);
+insert into STAFF values(1060,'Beverly Ridley','F','0856481240','Zookeeper',12000);
 
 
 -- Insert data to Zone Table by Safe
