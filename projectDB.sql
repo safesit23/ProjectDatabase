@@ -93,27 +93,41 @@ insert into Taxonomy values('T0003','Ginglymostoma cirratum','Frozen fish macker
 
 
 
--- Insert data to Staff Table by Ryan
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1001,'Nutnrong','F','0123456789','Manager',50000);
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1002,'Zoro','M','1234567890','Zookeeper',12000);
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1003,'Nami','F','1123456789','Information',10000);
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1004,'Luffy','M','1112345678','Vet',30000);
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1005,'Sanji','M','1111234567','Zookeeper',12000);
-insert into STAFF (staffid,staffname,gender, tel, position, salary) values(1006,'Franky','M','1111123456','Cleaner',11000);
+-- Insert data to Staff Table by Ryan //zookeeper 30 vet 7 information 10 cleaner 13 Manager 1
+insert into STAFF values(1001,'Nutnrong','F','0860240993','Manager',50000);
+insert into STAFF values(1002,'Zoro','M','0880174765','Zookeeper',12000); --Zookeeper 8
+insert into STAFF values(1003,'Nami','F','0803742891','Information',10000); --Infromation 4
+insert into STAFF values(1004,'Luffy','M','0828599562','Vet',30000); --Vet 5
+insert into STAFF values(1005,'Sanji','M','0844612172','Zookeeper',12000);
+insert into STAFF values(1006,'Franky','M','0855680441','Cleaner',11000); --Cleaner 1
+
+insert into STAFF values(1007,'Amaan','F','0866040046','Zookeeper',12000);
+insert into STAFF values(1008,'Zayyan','F','0892758161','Information',10000);
+insert into STAFF values(1009,'Rares','F','0802142004','Zookeeper',12000);
+insert into STAFF values(1010,'Valerie','F','0832319706','Vet',30000);
+insert into STAFF values(1011,'Kody','M','0825274252','Vet',30000);
+insert into STAFF values(1012,'Amy','F','0890268960','Zookeeper',12000);
+insert into STAFF values(1013,'Shivani','F','0832570948','Vet',30000);
+insert into STAFF values(1014,'Ilayda','F','0837218341','Manager',50000);
+insert into STAFF values(1015,'Zubair','F','0837943345','Zookeeper',12000);
+insert into STAFF values(1016,'Elisabeth','F','0853921893','Vet',30000);
+insert into STAFF values(1017,'Dexter','M','0875652638','Zookeeper',12000);
+insert into STAFF values(1018,'Dominykas','M','0876652247','Information',10000);
+insert into STAFF values(1019,'Mikaeel','F','0884692062','Zookeeper',12000);
+insert into STAFF values(1020,'Kester','M','0863950124','Information',10000);
 
 
 -- Insert data to Zone Table by Safe
 --insert into ZONE values(zoneid,zonename,zonedetails,zonesize)
-insert into ZONE values('Z0001','AquaZone','This zone is Aqua','8 acre');
-insert into ZONE values('Z0002','BirdZone','This zone is Bird','5 acre');
-insert into ZONE values('Z0003','WildZone','This zone is Wild','40 acre');
-insert into ZONE values('Z0004','ReptileZone','This zone is Reptile','6 acre');
-insert into ZONE values('Z0005','AfricaZone','This zone is Africa','30 acre');
+insert into ZONE values('Z0001','AquaZone','This zone is Aqua','200 sq.m.');
+insert into ZONE values('Z0002','BirdZone','This zone is Bird','800 sq.m.');
+insert into ZONE values('Z0003','WildZone','This zone is Wild','1200 sq.m.');
+insert into ZONE values('Z0004','ReptileZone','This zone is Reptile','200 sq.m.');
+insert into ZONE values('Z0005','AfricaZone','This zone is Africa','2000 sq.m.');
 
 -- Insert data to Area Table by Safe
 --insert into AREA values(areaid,areaname,zoneid,areaname)
---1 acre = 1600 sq.m.
-insert into AREA values('AR1001','1000 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1001','10 sq.m.','Z0001','AquaZone');
 insert into AREA values('AR1002','20 sq.m.','Z0001','AquaZone');
 
 insert into AREA values('AR2001','600 sq.m.','Z0002','BirdZone');
