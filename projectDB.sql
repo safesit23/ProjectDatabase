@@ -185,7 +185,7 @@ insert into MANAGEMENT values ('AR1001','1006');
 
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
---    AnimalId, AnimalName, Age, Gender, DOB, Type, Symthom, AreaId, TaxonomyId
+--                      AnimalId, AnimalName, Age, Gender, DOB, Type, Symthom, AreaId, TaxonomyId
 INSERT into Animal values ('AN001','Aby',1,'M','15-03-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN002','Arm',1,'F','15-03-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN003','Aod',1,'F','10-01-2017','Motoro Ray',NULL,'AR1001','T0001');
@@ -196,7 +196,14 @@ INSERT into Animal values ('AN007','Bee',2,'F','10-10-2017','Nurse Shark',NULL,'
 INSERT into Animal values ('AN008','Boo',2,'M','01-03-2017','Nurse Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN009','Bye',5,'M','01-10-2014','Nurse Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN010','Bi',4,'F','08-12-2015','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN010','Bike',6,'M','08-12-2013','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN011','Bike',6,'M','08-12-2013','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN012','Byte',6,'F','08-12-2013','Nurse Shark',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN013','Elena',4,'M','22-11-2015','Slender African Lungfish',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN014','Volodya',6,'M','22-11-2015','Slender African Lungfish',NULL,'AR1001','T0001');
+INSERT into Animal values ('AN015','Anita',6,'M','22-11-2017','Slender African Lungfish',NULL,'AR1001','T0001');
+
+INSERT into Animal values ('AN016','Jamie',1,'M','20-04-2018','Redfish',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN017','Wallis',1,'M','25-08-2018','Redfish',NULL,'AR1002','T0001');
 
 -- ----------------------- CREATE INDEX -----------------------
 
