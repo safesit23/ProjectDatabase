@@ -91,6 +91,15 @@ insert into Taxonomy values('T0002','Chiloscyllium punctatum','shrimp,crab','Chi
 insert into Taxonomy values('T0003','Ginglymostoma cirratum','Frozen fish mackerel, smelt, and herring','Ginglymostoma cirratum is an elasmobranch fish within the family Ginglymostomatidae. They are directly targeted in some fisheries and considered as bycatch in others');
 insert into Taxonomy values('T0004','Protopterus annectens','krill','There are four African lungfish species. The P.anncetens, however is the most common in aquariums.They are considered to be fearless and they will attack almost anything that moves');
 insert into Taxonomy values('T0005','Sciaenops ocellatus','shrimp, crustaceans, small fish, meal',' The Redfish is notorious as a bottom feeding animal.  However, it can also be seen on the surface, feeding on schools of fingerling baitfish.  It prefers shallow grass beds and and structures where small fish and crustaceans are abundant');
+insert into Taxonomy values('T0006','aa','Food','Des');
+insert into Taxonomy values('T0007','aa','Food','Des');
+insert into Taxonomy values('T0008','aa','Food','Des');
+insert into Taxonomy values('T0009','aa','Food','Des');
+insert into Taxonomy values('T0010','aa','Food','Des');
+insert into Taxonomy values('T0011','aa','Food','Des');
+insert into Taxonomy values('T0012','aa','Food','Des');
+insert into Taxonomy values('T0013','aa','Food','Des');
+insert into Taxonomy values('T0014','aa','Food','Des');
 
 
 -- Insert data to Staff Table by Ryan //zookeeper 29 vet 7 information 10 cleaner 13 Manager 1
