@@ -95,11 +95,11 @@ insert into Taxonomy values('T0003','Ginglymostoma cirratum','Frozen fish macker
 
 -- Insert data to Staff Table by Ryan //zookeeper 30 vet 7 information 10 cleaner 13 Manager 1
 insert into STAFF values(1001,'Nutnrong','F','0860240993','Manager',50000);
-insert into STAFF values(1002,'Zoro','M','0880174765','Zookeeper',12000); --Zookeeper 11
-insert into STAFF values(1003,'Nami','F','0803742891','Information',10000); --Infromation 5
+insert into STAFF values(1002,'Zoro','M','0880174765','Zookeeper',12000); --Zookeeper 16
+insert into STAFF values(1003,'Nami','F','0803742891','Information',10000); --Infromation 8
 insert into STAFF values(1004,'Luffy','M','0828599562','Vet',30000); --Vet 7
 insert into STAFF values(1005,'Sanji','M','0844612172','Zookeeper',12000);
-insert into STAFF values(1006,'Franky','M','0855680441','Cleaner',11000); --Cleaner 5
+insert into STAFF values(1006,'Franky','M','0855680441','Cleaner',11000); --Cleaner 7
 
 insert into STAFF values(1007,'Amaan','F','0866040046','Zookeeper',12000);
 insert into STAFF values(1008,'Zayyan','F','0892758161','Information',10000);
@@ -126,6 +126,17 @@ insert into STAFF values(1027,'Elissa','F','0882355829','Zookeeper',12000);
 insert into STAFF values(1028,'Alessio','M','0874380317','Cleaner',11000);
 insert into STAFF values(1029,'Nylah','F','0897094801','Zookeeper',12000);
 insert into STAFF values(1030,'Kristina','F','0882526614','Information',10000);
+
+insert into STAFF values(1031,'Stan','M','0890734191','Zookeeper',12000);
+insert into STAFF values(1032,'Isaak','M','0812792649','Cleaner',11000);
+insert into STAFF values(1033,'Eman','M','0811846961','Information',10000);
+insert into STAFF values(1034,'Cari','F','0899996786','Zookeeper',12000);
+insert into STAFF values(1035,'Antoni','M','0816791685','Cleaner',11000);
+insert into STAFF values(1036,'Lexi','F','0826565714','Zookeeper',12000);
+insert into STAFF values(1037,'Braiden','M','0885970985','Information',10000);
+insert into STAFF values(1038,'Rufus','M','0889662487','Zookeeper',12000);
+insert into STAFF values(1039,'Hania','F','0884903834','Zookeeper',12000);
+insert into STAFF values(1040,'Mirza','F','0816287350','Information',10000);
 
 
 -- Insert data to Zone Table by Safe
