@@ -299,6 +299,7 @@ insert into MANAGEMENT values ('AR1003','1005');
 INSERT into Animal values ('AN001','Aby',1,'M','15-MAR-2017','Motoro Ray','Fishflu','AR1001','T0001');
 INSERT into Animal values ('AN002','Arm',1,'F','15-MAR-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN003','Aod',1,'F','10-JAN-2017','Motoro Ray',NULL,'AR1001','T0001');
+
 INSERT into Animal values ('AN004','Dee',3,'M','15-MAR-2016','Banded Cat Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN005','Doo',3,'F','11-JUL-2016','Banded Cat Shark',NULL,'AR1001','T0001');
 
