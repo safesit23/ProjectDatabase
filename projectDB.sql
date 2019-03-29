@@ -236,68 +236,156 @@ insert into MANAGEMENT values ('AR1003','1005');
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
 --                      AnimalId, AnimalName, Age, Gender, DOB, Type, Symthom, AreaId, TaxonomyId
-INSERT into Animal values ('AN001','Aby',1,'M','15-MAR-2017','Motoro Ray','Birdflu','AR1001','T0001');
+
+--AquaZone
+INSERT into Animal values ('AN001','Aby',1,'M','15-MAR-2017','Motoro Ray','Fishflu','AR1001','T0001');
 INSERT into Animal values ('AN002','Arm',1,'F','15-MAR-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN003','Aod',1,'F','10-JAN-2017','Motoro Ray',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN004','Dee',3,'M','15-MAR-2016','Banded Cat Shark',NULL,'AR1001','T0001');
 INSERT into Animal values ('AN005','Doo',3,'F','11-JUL-2016','Banded Cat Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN006','Bunny',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN007','Bee',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN008','Boo',2,'M','01-MAR-2017','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN009','Bye',5,'M','01-OCT-2014','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN010','Bi',4,'F','08-DEC-2015','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN011','Bike',6,'M','08-DEC-2013','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN012','Byte',6,'F','08-DEC-2013','Nurse Shark',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN013','Elena',4,'M','22-NOV-2015','Slender African Lungfish',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN014','Volodya',6,'M','22-NOV-2015','Slender African Lungfish',NULL,'AR1001','T0001');
-INSERT into Animal values ('AN015','Anita',6,'M','22-NOV-2017','Slender African Lungfish',NULL,'AR1001','T0001');
 
+INSERT into Animal values ('AN006','Bunny',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN007','Bee',2,'F','10-OCT-2017','Nurse Shark',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN008','Boo',2,'M','01-MAR-2017','Nurse Shark',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN009','Bye',5,'M','01-OCT-2014','Nurse Shark',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN010','Bi',4,'F','08-DEC-2015','Nurse Shark',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN011','Bike',6,'M','08-DEC-2013','Nurse Shark',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN012','Byte',6,'F','08-DEC-2013','Nurse Shark',NULL,'AR1002','T0001');
 
-INSERT into Animal values ('AN016','Jamie',5,'M','02-OCT-2014','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN017','Wallis',5,'F','08-NOV-2014','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN018','Kelvin',1,'M','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN019','Chelsea',1,'M','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN020','Halle',1,'F','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN021','Marvyn',1,'F','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN022','Sela',1,'F','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN023','Gerrard',1,'M','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN024','Belle',1,'F','14-AUG-2018','Redfish',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN013','Elena',4,'M','22-NOV-2015','Slender African Lungfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN014','Volodya',6,'M','22-NOV-2015','Slender African Lungfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN015','Anita',6,'M','22-NOV-2017','Slender African Lungfish',NULL,'AR1003','T0001');
 
-INSERT into Animal values ('AN025','Caelan',4,'M','10-JAN-2015','Pecos Pupfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN026','Darden',4,'F','14-OCT-2015','Pecos Pupfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN027','June',1,'F','18-SEP-2018','Pecos Pupfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN028','Terra',1,'F','18-SEP-2018','Pecos Pupfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN029','Sue',1,'F','18-SEP-2018','Pecos Pupfish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN030','Cathy',1,'M','18-SEP-2018','Pecos Pupfish',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN016','Jamie',5,'M','02-OCT-2014','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN017','Wallis',5,'F','08-NOV-2014','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN018','Kelvin',1,'M','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN019','Chelsea',1,'M','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN020','Halle',1,'F','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN021','Marvyn',1,'F','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN022','Sela',1,'F','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN023','Gerrard',1,'M','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
+INSERT into Animal values ('AN024','Belle',1,'F','14-AUG-2018','Redfish',NULL,'AR1003','T0001');
 
-INSERT into Animal values ('AN031','Justina',1,'M','10-MAR-2018','Four Eyed Fish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN032','Lottie',3,'F','21-FEB-2016','Four Eyed Fish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN033','Madoline',1,'F','11-SEP-2018','Four Eyed Fish',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN025','Caelan',4,'M','10-JAN-2015','Pecos Pupfish',NULL,'AR1004','T0001');
+INSERT into Animal values ('AN026','Darden',4,'F','14-OCT-2015','Pecos Pupfish',NULL,'AR1004','T0001');
+INSERT into Animal values ('AN027','June',1,'F','18-SEP-2018','Pecos Pupfish',NULL,'AR1004','T0001');
+INSERT into Animal values ('AN028','Terra',1,'F','18-SEP-2018','Pecos Pupfish',NULL,'AR1004','T0001');
+INSERT into Animal values ('AN029','Sue',1,'F','18-SEP-2018','Pecos Pupfish',NULL,'AR1004','T0001');
+INSERT into Animal values ('AN030','Cathy',1,'M','18-SEP-2018','Pecos Pupfish',NULL,'AR1004','T0001');
 
-INSERT into Animal values ('AN034','Vikki',7,'M','08-AUG-2012','Dragon Fish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN035','Dwayne',6,'F','17-SEP-2013','Dragon Fish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN036','Lexa',2,'F','11-JAN-2018','Dragon Fish',NULL,'AR1002','T0001');
-INSERT into Animal values ('AN037','Becky',2,'F','12-JAN-2018','Dragon Fish',NULL,'AR1002','T0001');
+INSERT into Animal values ('AN031','Justina',1,'M','10-MAR-2018','Four Eyed Fish',NULL,'AR1005','T0001');
+INSERT into Animal values ('AN032','Lottie',3,'F','21-FEB-2016','Four Eyed Fish',NULL,'AR1005','T0001');
+INSERT into Animal values ('AN033','Madoline',1,'F','11-SEP-2018','Four Eyed Fish',NULL,'AR1005','T0001');
 
+INSERT into Animal values ('AN034','Vikki',7,'M','08-AUG-2012','Dragon Fish',NULL,'AR1005','T0001');
+INSERT into Animal values ('AN035','Dwayne',6,'F','17-SEP-2013','Dragon Fish',NULL,'AR1005','T0001');
+INSERT into Animal values ('AN036','Lexa',2,'F','11-JAN-2018','Dragon Fish',NULL,'AR1005','T0001');
+INSERT into Animal values ('AN037','Becky',2,'F','12-JAN-2018','Dragon Fish',NULL,'AR1005','T0001');
 
+--BirdZone
 INSERT into Animal values ('AN038','Rosemary',10,'F','12-JAN-2009','Harris Hawk',NULL,'AR2001','T0001');
 INSERT into Animal values ('AN039','Diamond',8,'M','12-JAN-2011','Harris Hawk',NULL,'AR2001','T0001');
 
 INSERT into Animal values ('AN040','Kieron',8,'F','30-AUG-2011','Crowned Eagle',NULL,'AR2001','T0001');
 
-INSERT into Animal values ('AN041','Stirling',2,'M','31-JAN-2017','Northern Harrier',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN041','Stirling',2,'M','31-JAN-2017','Northern Harrier',NULL,'AR2002','T0001');
 
-INSERT into Animal values ('AN042','Jamey',2,'M','03-FEB-2017','Mountain hawk eagle',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN043','Lauressa',1,'F','30-JUL-2018','Mountain hawk eagle',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN042','Jamey',2,'M','03-FEB-2017','Mountain hawk eagle',NULL,'AR2002','T0001');
+INSERT into Animal values ('AN043','Lauressa',1,'F','30-JUL-2018','Mountain hawk eagle','Birdflu','AR2002','T0001');
 
-INSERT into Animal values ('AN044','Vin',8,'F','30-NOV-2011','Black Swan',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN045','Clover',8,'M','30-SEP-2011','Black Swan',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN046','Zackery',2,'M','28-APR-2017','Black Swan',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN047','Esmaralda',2,'M','26-OCT-2017','Black Swan',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN044','Vin',8,'F','30-NOV-2011','Black Swan',NULL,'AR2003','T0001');
+INSERT into Animal values ('AN045','Clover',8,'M','30-SEP-2011','Black Swan',NULL,'AR2003','T0001');
+INSERT into Animal values ('AN046','Zackery',2,'M','28-APR-2017','Black Swan',NULL,'AR2003','T0001');
+INSERT into Animal values ('AN047','Esmaralda',2,'M','26-OCT-2017','Black Swan',NULL,'AR2003','T0001');
 
-INSERT into Animal values ('AN048','Gene',9,'M','24-DEC-2010','Hyacinth Macaw',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN049','Clay',8,'M','08-MAY-2011','Hyacinth Macaw',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN050','Hyacinth',4,'F','06-FEB-2015','Hyacinth Macaw',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN048','Gene',9,'M','24-DEC-2010','Hyacinth Macaw',NULL,'AR2004','T0001');
+INSERT into Animal values ('AN049','Clay',8,'M','08-MAY-2011','Hyacinth Macaw',NULL,'AR2004','T0001');
+INSERT into Animal values ('AN050','Hyacinth',4,'F','06-FEB-2015','Hyacinth Macaw',NULL,'AR2004','T0001');
+
+INSERT into Animal values ('AN051','Aye',4,'F','06-FEB-2015','Military Macaw',NULL,'AR2005','T0001');
+INSERT into Animal values ('AN052','Aoy',4,'F','06-FEB-2015','Military Macaw',NULL,'AR2005','T0001');
+
+--WildZone
+INSERT into Animal values ('AN053','Hallam',10,'F','06-FEB-2009','Koala',NULL,'AR3001','T0001');
+INSERT into Animal values ('AN054','Hallam',9,'M','17-JAN-2010','Koala','Broken leg','AR3001','T0001');
+
+INSERT into Animal values ('AN055','Cheryl',4,'M','25-OCT-2015','Dama Wallaby',NULL,'AR3002','T0001');
+INSERT into Animal values ('AN056','Lyric',4,'F','07-MAR-2015','Dama Wallaby',NULL,'AR3002','T0001');
+
+INSERT into Animal values ('AN057','Jonelle',7,'M','14-NOV-2012','Red Wolf',NULL,'AR3003','T0001');
+INSERT into Animal values ('AN058','Brooke',7,'M','25-FEB-2012','Red Wolf',NULL,'AR3003','T0001');
+INSERT into Animal values ('AN059','Carolina',4,'M','30-APR-2015','Red Wolf',NULL,'AR3003','T0001');
+INSERT into Animal values ('AN060','Newton',4,'F','10-MAY-2015','Red Wolf',NULL,'AR3003','T0001');
+
+INSERT into Animal values ('AN061','Idella',2,'F','11-FEB-2017','Coyote',NULL,'AR3004','T0001');
+INSERT into Animal values ('AN062','Dalton',2,'F','02-FEB-2017','Coyote',NULL,'AR3004','T0001');
+
+INSERT into Animal values ('AN063','Eliana',9,'M','12-OCT-2010','Mexican Wolf',NULL,'AR3005','T0001');
+INSERT into Animal values ('AN064','Loreen',10,'M','25-DEC-2009','Mexican Wolf',NULL,'AR3005','T0001');
+
+INSERT into Animal values ('AN065','Maya',8,'M','28-JUN-2011','American Black Bear',NULL,'AR3006','T0001');
+INSERT into Animal values ('AN066','Arlie',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0001');
+
+INSERT into Animal values ('AN067','Joandra',4,'M','24-JUN-2015','RIVER OTTER',NULL,'AR3007','T0001');
+INSERT into Animal values ('AN068','Hayley',4,'F','04-JUN-2015','RIVER OTTER',NULL,'AR3007','T0001');
+
+--ReptileZone
+INSERT into Animal values ('AN069','Marylyn',8,'F','14-OCT-2011','American alligator',NULL,'AR4001','T0001');
+INSERT into Animal values ('AN070','Deven',1,'M','14-DEC-2018','American alligator',NULL,'AR4001','T0001');
+INSERT into Animal values ('AN071','Cody',1,'F','10-JAN-2018','American alligator',NULL,'AR4001','T0001');
+
+INSERT into Animal values ('AN072','Sera',1,'M','10-JAN-2018','Gharial',NULL,'AR4002','T0001');
+INSERT into Animal values ('AN073','Lorrin',1,'F','04-JAN-2018','Gharial',NULL,'AR4002','T0001');
+
+INSERT into Animal values ('AN074','Frances',4,'M','08-AUG-2014','Philippine crocodile',NULL,'AR4003','T0001');
+INSERT into Animal values ('AN75','Thorburn',4,'F','09-AUG-2014','Philippine crocodile',NULL,'AR4003','T0001');
+
+INSERT into Animal values ('AN076','Colby',4,'M','12-AUG-2015','Dwarf crocodile',NULL,'AR4004','T0001');
+INSERT into Animal values ('AN077','Harding',4,'F','10-MAR-2015','Dwarf crocodile',NULL,'AR4004','T0001');
+
+INSERT into Animal values ('AN078','Leo',8,'M','14-FEB-2011','Hawksbill sea turtle',NULL,'AR4005','T0001');
+INSERT into Animal values ('AN079','Danielle',8,'F','08-MAR-2011','Hawksbill sea turtle',NULL,'AR4005','T0001');
+INSERT into Animal values ('AN080','Tibby',7,'M','04-SEP-2012','Hawksbill sea turtle',NULL,'AR4005','T0001');
+INSERT into Animal values ('AN081','Lyndi',7,'M','12-SEP-2012','Hawksbill sea turtle',NULL,'AR4005','T0001');
+
+INSERT into Animal values ('AN083','Verity',3,'M','16-AUG-2016','Matamata turtle',NULL,'AR4006','T0001');
+INSERT into Animal values ('AN084','Ora',3,'F','24-OCT-2016','Matamata turtle',NULL,'AR4006','T0001');
+INSERT into Animal values ('AN085','Hank',3,'F','15-SEP-2016','Matamata turtle',NULL,'AR4006','T0001');
+
+INSERT into Animal values ('AN086','Rosemarie',1,'M','22-SEP-2018','Panther chameleon',NULL,'AR4007','T0001');
+INSERT into Animal values ('AN087','Blaze',1,'M','23-NOV-2018','Panther chameleon',NULL,'AR4007','T0001');
+
+INSERT into Animal values ('AN088','Tom',10,'M','25-AUG-2009','Pancake tortoise',NULL,'AR4008','T0001');
+INSERT into Animal values ('AN089','Eleanor',1,'F','28-AUG-2018','Pancake tortoise',NULL,'AR4008','T0001');
+
+INSERT into Animal values ('AN090','Kristin',9,'M','10-AUG-2010','Solomon Island skink',NULL,'AR4009','T0001');
+
+INSERT into Animal values ('AN091','Alanis',5,'F','15-NOV-2014','Shingleback skink',NULL,'AR4010','T0001');
+INSERT into Animal values ('AN092','Petra',2,'M','05-DEC-2017','Shingleback skink',NULL,'AR4010','T0001');
+INSERT into Animal values ('AN093','Clem',1,'F','15-DEC-2018','Shingleback skink',NULL,'AR4010','T0001');
+
+INSERT into Animal values ('AN094','Chet',4,'F','01-FEB-2015','Water monitor',NULL,'AR4011','T0001');
+
+INSERT into Animal values ('AN095','Hatty',5,'F','01-JAN-2014','Desert Monitor',NULL,'AR4012','T0001');
+
+--AfricaZone
+INSERT into Animal values ('AN096','Bethany',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN097','Lynne',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+
+INSERT into Animal values ('AN098','Lenore',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN099','Jazmine',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+
+INSERT into Animal values ('AN100','Elle',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN101','Messiah',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+
+INSERT into Animal values ('AN102','Maynerd',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+
+INSERT into Animal values ('AN103','Bertina',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN104','Franklin',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN105','Arthur',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN106','Leola',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+
+INSERT into Animal values ('AN107','Justice',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
 
 -- ----------------------- CREATE INDEX -----------------------
 
