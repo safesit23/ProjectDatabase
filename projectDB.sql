@@ -181,14 +181,41 @@ insert into ZONE values('Z0005','AfricaZone','This zone is Africa','30 acre');
 -- Insert data to Area Table by Safe
 --1 acre = 1600 sq.m.
 --insert into AREA values(areaid,areaname,zoneid,areaname)
-insert into AREA values('AR1001','10 sq.m.','Z0001','AquaZone');
-insert into AREA values('AR1002','20 sq.m.','Z0001','AquaZone');
-insert into AREA values('AR1002','20 sq.m.','Z0001','AquaZone');
-insert into AREA values('AR1002','20 sq.m.','Z0001','AquaZone');
-insert into AREA values('AR1002','20 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1001','4000 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1002','2000 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1003','3500 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1004','1500 sq.m.','Z0001','AquaZone');
+insert into AREA values('AR1005','1800 sq.m.','Z0001','AquaZone');
 
-insert into AREA values('AR2001','600 sq.m.','Z0002','BirdZone');
-insert into AREA values('AR2002','200 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2001','1500 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2002','500 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2003','3000 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2004','1200 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2005','800 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2005','1000 sq.m.','Z0002','BirdZone');
+
+insert into AREA values('AR3001','4000 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3002','3200 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3003','5500 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3004','12000 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3005','6300 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3006','20000 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3007','8000 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3007','5000 sq.m.','Z0003','WildZone');
+
+insert into AREA values('AR4001','1000 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4002','700 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4003','2000 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4004','850 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4005','650 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4006','400 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4007','940 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4008','360 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4009','400 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4010','680 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4011','930 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4012','330 sq.m.','Z0004','ReptileZone');
+insert into AREA values('AR4013','360 sq.m.','Z0004','ReptileZone');
 
 -- Insert data to Management Table by Safe
 --insert into Management values(areaid,staffid)
