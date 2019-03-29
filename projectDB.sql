@@ -372,7 +372,7 @@ INSERT into Animal values ('AN089','Eleanor',1,'F','28-AUG-2018','Pancake tortoi
 
 INSERT into Animal values ('AN090','Kristin',9,'M','10-AUG-2010','Solomon Island skink',NULL,'AR4009','T0001');
 
-INSERT into Animal values ('AN091','Alanis',5,'F','15-NOV-2014','Shingleback skink',NULL,'AR4010','T0001');
+INSERT into Animal values ('AN091','Alanis',5,'F','15-NOV-2014','Shingleback skink','flu','AR4010','T0001');
 INSERT into Animal values ('AN092','Petra',2,'M','05-DEC-2017','Shingleback skink',NULL,'AR4010','T0001');
 INSERT into Animal values ('AN093','Clem',1,'F','15-DEC-2018','Shingleback skink',NULL,'AR4010','T0001');
 
@@ -381,23 +381,24 @@ INSERT into Animal values ('AN094','Chet',4,'F','01-FEB-2015','Water monitor',NU
 INSERT into Animal values ('AN095','Hatty',5,'F','01-JAN-2014','Desert Monitor',NULL,'AR4012','T0001');
 
 --AfricaZone
-INSERT into Animal values ('AN096','Bethany',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN097','Lynne',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+--https://www.edreams.com/blog/animals-in-africa-from-a-to-z/
+INSERT into Animal values ('AN096','Bethany',11,'M','11-OCT-2008','African wild dog',NULL,'AR5001','T0001');
+INSERT into Animal values ('AN097','Lynne',11,'F','11-JAN-2008','African wild dog',NULL,'AR5001','T0001');
 
-INSERT into Animal values ('AN098','Lenore',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN099','Jazmine',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN098','Lenore',14,'F','12-AUG-2005','Cheetah',NULL,'AR5002','T0001');
+INSERT into Animal values ('AN099','Jazmine',14,'M','14-AUG-2005','Cheetah',NULL,'AR5002','T0001');
 
-INSERT into Animal values ('AN100','Elle',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN101','Messiah',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN100','Elle',6,'F','11-JAN-2013','Desert Warthog','pink eye','AR5003','T0001');
+INSERT into Animal values ('AN101','Messiah',5,'M','01-JAN-2014','Desert Warthog',NULL,'AR5003','T0001');
 
-INSERT into Animal values ('AN102','Maynerd',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN102','Maynerd',7,'F','05-FEB-2012','Fennec Fox',NULL,'AR5004','T0001');
 
-INSERT into Animal values ('AN103','Bertina',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN104','Franklin',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN105','Arthur',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
-INSERT into Animal values ('AN106','Leola',4,'F','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN103','Bertina',15,'M','30-OCT-2004','Hippo',NULL,'AR5005','T0001');
+INSERT into Animal values ('AN104','Franklin',12,'F','28-DEC-2007','Hippo',NULL,'AR5005','T0001');
+INSERT into Animal values ('AN105','Arthur',11,'F','28-DEC-2008','Hippo',NULL,'AR5005','T0001');
+INSERT into Animal values ('AN106','Leola',4,'F','15-NOV-2015','Hippo',NULL,'AR5005','T0001');
 
-INSERT into Animal values ('AN107','Justice',4,'M','06-FEB-2015','RIVER OTTER',NULL,'AR2001','T0001');
+INSERT into Animal values ('AN107','Justice',10,'M','01-MAY-2009','Klipspringer',NULL,'AR5006','T0001');
 
 -- ----------------------- CREATE INDEX -----------------------
 
