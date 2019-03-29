@@ -120,6 +120,32 @@ insert into Taxonomy values('T0031','Name','Food','Des');
 insert into Taxonomy values('T0032','Name','Food','Des');
 insert into Taxonomy values('T0033','Name','Food','Des');
 insert into Taxonomy values('T0034','Name','Food','Des');
+insert into Taxonomy values('T0035','Name','Food','Des');
+insert into Taxonomy values('T0036','Name','Food','Des');
+insert into Taxonomy values('T0037','Name','Food','Des');
+insert into Taxonomy values('T0038','Name','Food','Des');
+insert into Taxonomy values('T0039','Name','Food','Des');
+insert into Taxonomy values('T0040','Name','Food','Des');
+insert into Taxonomy values('T0041','Name','Food','Des');
+insert into Taxonomy values('T0042','Name','Food','Des');
+insert into Taxonomy values('T0043','Name','Food','Des');
+insert into Taxonomy values('T0044','Name','Food','Des');
+insert into Taxonomy values('T0045','Name','Food','Des');
+insert into Taxonomy values('T0046','Name','Food','Des');
+insert into Taxonomy values('T0047','Name','Food','Des');
+insert into Taxonomy values('T0048','Name','Food','Des');
+insert into Taxonomy values('T0049','Name','Food','Des');
+insert into Taxonomy values('T0050','Name','Food','Des');
+insert into Taxonomy values('T0051','Name','Food','Des');
+insert into Taxonomy values('T0052','Name','Food','Des');
+insert into Taxonomy values('T0053','Name','Food','Des');
+insert into Taxonomy values('T0054','Name','Food','Des');
+insert into Taxonomy values('T0055','Name','Food','Des');
+insert into Taxonomy values('T0056','Name','Food','Des');
+insert into Taxonomy values('T0057','Name','Food','Des');
+insert into Taxonomy values('T0058','Name','Food','Des');
+insert into Taxonomy values('T0059','Name','Food','Des');
+insert into Taxonomy values('T0060','Name','Food','Des');
 
 
 -- Insert data to Staff Table by Ryan //zookeeper 29 vet 7 information 10 cleaner 13 Manager 1
