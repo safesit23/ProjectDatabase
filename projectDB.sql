@@ -250,7 +250,7 @@ insert into AREA values('AR2002','500 sq.m.','Z0002','BirdZone');
 insert into AREA values('AR2003','3000 sq.m.','Z0002','BirdZone');
 insert into AREA values('AR2004','1200 sq.m.','Z0002','BirdZone');
 insert into AREA values('AR2005','800 sq.m.','Z0002','BirdZone');
-insert into AREA values('AR2005','1000 sq.m.','Z0002','BirdZone');
+insert into AREA values('AR2006','1000 sq.m.','Z0002','BirdZone');
 
 insert into AREA values('AR3001','4000 sq.m.','Z0003','WildZone');
 insert into AREA values('AR3002','3200 sq.m.','Z0003','WildZone');
@@ -259,7 +259,7 @@ insert into AREA values('AR3004','12000 sq.m.','Z0003','WildZone');
 insert into AREA values('AR3005','6300 sq.m.','Z0003','WildZone');
 insert into AREA values('AR3006','20000 sq.m.','Z0003','WildZone');
 insert into AREA values('AR3007','8000 sq.m.','Z0003','WildZone');
-insert into AREA values('AR3007','5000 sq.m.','Z0003','WildZone');
+insert into AREA values('AR3008','5000 sq.m.','Z0003','WildZone');
 
 insert into AREA values('AR4001','1000 sq.m.','Z0004','ReptileZone');
 insert into AREA values('AR4002','700 sq.m.','Z0004','ReptileZone');
