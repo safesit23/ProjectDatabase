@@ -217,6 +217,13 @@ insert into AREA values('AR4011','930 sq.m.','Z0004','ReptileZone');
 insert into AREA values('AR4012','330 sq.m.','Z0004','ReptileZone');
 insert into AREA values('AR4013','360 sq.m.','Z0004','ReptileZone');
 
+insert into AREA values('AR5001','6500 sq.m.','Z0005','AfricaZone');
+insert into AREA values('AR5002','4800 sq.m.','Z0005','AfricaZone');
+insert into AREA values('AR5003','7700 sq.m.','Z0005','AfricaZone');
+insert into AREA values('AR5004','14500 sq.m.','Z0005','AfricaZone');
+insert into AREA values('AR5005','8200 sq.m.','Z0005','AfricaZone');
+insert into AREA values('AR5006','6300 sq.m.','Z0005','AfricaZone');
+
 -- Insert data to Management Table by Safe
 --insert into Management values(areaid,staffid)
 insert into MANAGEMENT values ('AR1001','1002');
