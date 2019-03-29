@@ -228,7 +228,10 @@ insert into AREA values('AR5006','6300 sq.m.','Z0005','AfricaZone');
 --insert into Management values(areaid,staffid)
 insert into MANAGEMENT values ('AR1001','1002');
 insert into MANAGEMENT values ('AR1002','1002');
-insert into MANAGEMENT values ('AR1001','1006');
+insert into MANAGEMENT values ('AR1003','1002');
+insert into MANAGEMENT values ('AR1002','1003');
+insert into MANAGEMENT values ('AR1003','1004');
+insert into MANAGEMENT values ('AR1003','1005');
 
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
