@@ -100,6 +100,26 @@ insert into Taxonomy values('T0011','Circus cyaneus','insects, small reptiles, a
 insert into Taxonomy values('T0012','Spizaetus nipalensis','This raptors diet in the zoo consists of white field mice','The mountain hawk eagle is one of the most voracious raptors in the world. They sit upon a concealed perch high in the forrest to observe the unsuspecting ground quarry, then move down to a lower branch to make a short and fast swoop');
 insert into Taxonomy values('T0013','Cygnus atratus','Aquatic vegetation and tidal grasses and grains','”Atratus” translates into “dressed in black.” Therefore, the body plumage of the black swan is black with white distal secondary and primary feathers on the wings that can be seen only when the bird is in flight.');
 insert into Taxonomy values('T0014','Anodorhynchus hyacinthinus','Various nuts','Hyacinths live in the wild as mated pairs and remain constant from season to season.They also live in family groups that consist of the parents and their offspring.  The Hyacinth are seasonal breeders, breeding after the rainy season.  The rainy season is usually from August and December.');
+insert into Taxonomy values('T0015','Name','Food','Des');
+insert into Taxonomy values('T0016','Name','Food','Des');
+insert into Taxonomy values('T0017','Name','Food','Des');
+insert into Taxonomy values('T0018','Name','Food','Des');
+insert into Taxonomy values('T0019','Name','Food','Des');
+insert into Taxonomy values('T0020','Name','Food','Des');
+insert into Taxonomy values('T0021','Name','Food','Des');
+insert into Taxonomy values('T0022','Name','Food','Des');
+insert into Taxonomy values('T0023','Name','Food','Des');
+insert into Taxonomy values('T0024','Name','Food','Des');
+insert into Taxonomy values('T0025','Name','Food','Des');
+insert into Taxonomy values('T0026','Name','Food','Des');
+insert into Taxonomy values('T0027','Name','Food','Des');
+insert into Taxonomy values('T0028','Name','Food','Des');
+insert into Taxonomy values('T0029','Name','Food','Des');
+insert into Taxonomy values('T0030','Name','Food','Des');
+insert into Taxonomy values('T0031','Name','Food','Des');
+insert into Taxonomy values('T0032','Name','Food','Des');
+insert into Taxonomy values('T0033','Name','Food','Des');
+insert into Taxonomy values('T0034','Name','Food','Des');
 
 
 -- Insert data to Staff Table by Ryan //zookeeper 29 vet 7 information 10 cleaner 13 Manager 1
