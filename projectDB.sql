@@ -320,12 +320,65 @@ insert into AREA values('AR5006','6300 sq.m.','Z0005','AfricaZone');
 
 -- Insert data to Management Table by Safe
 --insert into Management values(areaid,staffid)
+--ZOOKEEPER
 insert into MANAGEMENT values ('AR1001','1002');
-insert into MANAGEMENT values ('AR1002','1002');
-insert into MANAGEMENT values ('AR1003','1002');
-insert into MANAGEMENT values ('AR1002','1003');
-insert into MANAGEMENT values ('AR1003','1004');
-insert into MANAGEMENT values ('AR1003','1005');
+insert into MANAGEMENT values ('AR1001','1005');
+insert into MANAGEMENT values ('AR1001','1007');
+insert into MANAGEMENT values ('AR1002','1009');
+insert into MANAGEMENT values ('AR1003','1009');
+insert into MANAGEMENT values ('AR1004','1012');
+insert into MANAGEMENT values ('AR1005','1014');
+
+insert into MANAGEMENT values ('AR2001','1015');
+insert into MANAGEMENT values ('AR2002','1015');
+insert into MANAGEMENT values ('AR2003','1017');
+insert into MANAGEMENT values ('AR2003','1019');
+insert into MANAGEMENT values ('AR2004','1025');
+insert into MANAGEMENT values ('AR2005','1027');
+insert into MANAGEMENT values ('AR2006','1029');
+
+insert into MANAGEMENT values ('AR3001','1031');
+insert into MANAGEMENT values ('AR3002','1034');
+insert into MANAGEMENT values ('AR3003','1034');
+insert into MANAGEMENT values ('AR3004','1036');
+insert into MANAGEMENT values ('AR3004','1038');
+insert into MANAGEMENT values ('AR3004','1039');
+insert into MANAGEMENT values ('AR3004','1041');
+insert into MANAGEMENT values ('AR3005','1031');
+insert into MANAGEMENT values ('AR3006','1044');
+insert into MANAGEMENT values ('AR3006','1046');
+insert into MANAGEMENT values ('AR3006','1047');
+insert into MANAGEMENT values ('AR3006','1051');
+insert into MANAGEMENT values ('AR3006','1053');
+insert into MANAGEMENT values ('AR3007','1031');
+insert into MANAGEMENT values ('AR3008','1034');
+
+insert into MANAGEMENT values ('AR4001','1055');
+insert into MANAGEMENT values ('AR4002','1055');
+insert into MANAGEMENT values ('AR4003','1056');
+insert into MANAGEMENT values ('AR4003','1057');
+insert into MANAGEMENT values ('AR4004','1058');
+insert into MANAGEMENT values ('AR4005','1059');
+insert into MANAGEMENT values ('AR4006','1060');
+insert into MANAGEMENT values ('AR4007','1062');
+insert into MANAGEMENT values ('AR4008','1065');
+insert into MANAGEMENT values ('AR4009','1068');
+insert into MANAGEMENT values ('AR4010','1068');
+insert into MANAGEMENT values ('AR4011','1070');
+insert into MANAGEMENT values ('AR4012','1070');
+insert into MANAGEMENT values ('AR4013','1072');
+
+insert into MANAGEMENT values ('AR5001','1078');
+insert into MANAGEMENT values ('AR5002','1081');
+insert into MANAGEMENT values ('AR5003','1085');
+insert into MANAGEMENT values ('AR5004','1086');
+insert into MANAGEMENT values ('AR5005','1088');
+insert into MANAGEMENT values ('AR5005','1090');
+insert into MANAGEMENT values ('AR5005','1091');
+insert into MANAGEMENT values ('AR5005','1094');
+insert into MANAGEMENT values ('AR5005','1096');
+insert into MANAGEMENT values ('AR0006','1098');
+insert into MANAGEMENT values ('AR0006','1100');
 
 
 -- Insert data to Animal Table by Run
