@@ -511,7 +511,7 @@ create [BITMAP] index staff_position_idx on staff(position);
 
 
 -- Area Table by Safe
-
+create bitmap index area_zonename_idx on AREA(zonename);
 
 -- Management Table by Safe
 
