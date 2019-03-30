@@ -150,11 +150,11 @@ insert into Taxonomy values('T0060','Name','Food','Des');
 
 -- Insert data to Staff Table by Ryan //zookeeper 45 vet 14 information 13 cleaner 27 Manager 1
 insert into STAFF values(1001,'Nutnrong Yukittichai','F','0860240993','Manager',50000);
-insert into STAFF values(1002,'Roronoa Zoro','M','0880174765','Zookeeper',12000); 
-insert into STAFF values(1003,'Nico Robin','F','0803742891','Information',10000); 
-insert into STAFF values(1004,'Monkey Luffy','M','0828599562','Vet',30000); 
+insert into STAFF values(1002,'Roronoa Zoro','M','0880174765','Zookeeper',12000);
+insert into STAFF values(1003,'Nico Robin','F','0803742891','Information',10000);
+insert into STAFF values(1004,'Monkey Luffy','M','0828599562','Vet',30000);
 insert into STAFF values(1005,'Vinsmoke Sanji','M','0844612172','Zookeeper',12000);
-insert into STAFF values(1006,'Tony Chopper','M','0855680441','Cleaner',11000); 
+insert into STAFF values(1006,'Tony Chopper','M','0855680441','Cleaner',11000);
 
 insert into STAFF values(1007,'Amaan Senior','F','0866040046','Zookeeper',12000);
 insert into STAFF values(1008,'Zayyan Bruce','F','0892758161','Information',10000);
