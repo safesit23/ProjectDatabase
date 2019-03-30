@@ -482,6 +482,11 @@ INSERT into Animal values ('AN107','Justice',10,'M','01-MAY-2009','Klipspringer'
 
 -- Animal Table by Run
 
+create index idx_animal_symthom
+on Animal(symthom);
+
+create index idx_animal_type
+on Animal(type);
 
 -- ----------------------- CREATE ROLE -----------------------
 
