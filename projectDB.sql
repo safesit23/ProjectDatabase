@@ -377,9 +377,59 @@ insert into MANAGEMENT values ('AR5005','1090');
 insert into MANAGEMENT values ('AR5005','1091');
 insert into MANAGEMENT values ('AR5005','1094');
 insert into MANAGEMENT values ('AR5005','1096');
-insert into MANAGEMENT values ('AR0006','1098');
-insert into MANAGEMENT values ('AR0006','1100');
+insert into MANAGEMENT values ('AR5006','1098');
+insert into MANAGEMENT values ('AR5006','1100');
 
+--CLEANER
+insert into MANAGEMENT values ('AR1001','1006');
+insert into MANAGEMENT values ('AR1001','1022');
+insert into MANAGEMENT values ('AR1002','1023');
+insert into MANAGEMENT values ('AR1003','1023');
+insert into MANAGEMENT values ('AR1004','1026');
+insert into MANAGEMENT values ('AR1005','1026');
+
+insert into MANAGEMENT values ('AR2001','1028');
+insert into MANAGEMENT values ('AR2002','1028');
+insert into MANAGEMENT values ('AR2003','1032');
+insert into MANAGEMENT values ('AR2003','1035');
+insert into MANAGEMENT values ('AR2004','1042');
+insert into MANAGEMENT values ('AR2005','1048');
+insert into MANAGEMENT values ('AR2006','1048');
+
+insert into MANAGEMENT values ('AR3001','1049');
+insert into MANAGEMENT values ('AR3002','1049');
+insert into MANAGEMENT values ('AR3003','1049');
+insert into MANAGEMENT values ('AR3004','1050');
+insert into MANAGEMENT values ('AR3004','1052');
+insert into MANAGEMENT values ('AR3004','1054');
+insert into MANAGEMENT values ('AR3005','1066');
+insert into MANAGEMENT values ('AR3006','1071');
+insert into MANAGEMENT values ('AR3006','1073');
+insert into MANAGEMENT values ('AR3006','1075');
+insert into MANAGEMENT values ('AR3007','1066');
+insert into MANAGEMENT values ('AR3008','1075');
+
+insert into MANAGEMENT values ('AR4001','1077');
+insert into MANAGEMENT values ('AR4002','1077');
+insert into MANAGEMENT values ('AR4003','1082');
+insert into MANAGEMENT values ('AR4003','1083');
+insert into MANAGEMENT values ('AR4004','1087');
+insert into MANAGEMENT values ('AR4005','1087');
+insert into MANAGEMENT values ('AR4006','1087');
+insert into MANAGEMENT values ('AR4007','1087');
+insert into MANAGEMENT values ('AR4008','1089');
+insert into MANAGEMENT values ('AR4009','1089');
+insert into MANAGEMENT values ('AR4010','1092');
+insert into MANAGEMENT values ('AR4011','1092');
+insert into MANAGEMENT values ('AR4012','1093');
+insert into MANAGEMENT values ('AR4013','1093');
+
+insert into MANAGEMENT values ('AR5001','1095');
+insert into MANAGEMENT values ('AR5002','1095');
+insert into MANAGEMENT values ('AR5003','1095');
+insert into MANAGEMENT values ('AR5004','1095');
+insert into MANAGEMENT values ('AR5005','1097');
+insert into MANAGEMENT values ('AR5006','1099');
 
 -- Insert data to Animal Table by Run
 --https://whozoo.org/listodate.htm
