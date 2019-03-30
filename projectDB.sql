@@ -505,7 +505,7 @@ INSERT into Animal values ('AN107','Justice',10,'M','01-MAY-2009','Klipspringer'
 
 
 -- Staff Table by Ryan
-
+create [BITMAP] index staff_position_idx on staff(position);
 
 -- Zone Table by Safe
 
