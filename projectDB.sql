@@ -654,10 +654,33 @@ grant update(Symthom) on ANIMAL to role_vet;
 -- manager	role by Run
 create role role_manager;
 grant role_staff to role_manager;
+
 grant SELECT on staff to role_manager;
 grant insert on staff to role_manager;
 grant UPDATE on staff to role_manager;
 grant delete on staff to role_manager;
+
+grant select on TAXONOMY to role_manager;
+grant insert on TAXONOMY to role_manager;
+grant UPDATE on TAXONOMY to role_manager;
+grant delete on TAXONOMY to role_manager;
+
+grant select on MANAGEMENT to role_manager;
+grant insert on MANAGEMENT to role_manager;
+grant UPDATE on MANAGEMENT to role_manager;
+grant delete on MANAGEMENT to role_manager;
+
+grant insert on ANIMAL to role_manager;
+grant UPDATE on ANIMAL to role_manager;
+grant delete on ANIMAL to role_manager;
+
+grant insert on AREA to role_manager;
+grant UPDATE on AREA to role_manager;
+grant delete on AREA to role_manager;
+
+grant insert on ZONE to role_manager;
+grant UPDATE on ZONE to role_manager;
+grant delete on ZONE to role_manager;
 
 
 -- ----------------------- CREATE USER -----------------------
