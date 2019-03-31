@@ -662,7 +662,7 @@ grant role_zoovet to zoostaff004;
 create user zoostaff005
 identified by zoozoonarukaroinukzoozoo;
 
-create user staff006
+create user zoostaff006
 identified by zoozoonarukaroinukzoozoo;
 
 grant role_zookeeper to zoostaff005;
