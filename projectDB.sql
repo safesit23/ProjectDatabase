@@ -126,26 +126,6 @@ insert into Taxonomy values('T0037','Phacochoerus aethiopicus','bulbs, roots, an
 insert into Taxonomy values('T0038','Vulpes zerda','Omnivore','The fennec fox weighs about 0.7–1.6 kg (1.5–3.5 lb), with a body length of between 24–41 cm (9–16 in); it is around 20.3 cm (8 in) tall. It is the smallest species of canid in the world. The tail has a black tip and is 18–31 cm (7–12 in) long, while the ears can be between 10–15 cm (3.9–5.9 in) long.');
 insert into Taxonomy values('T0039','Hippopotamus amphibius','Herbivore diet','The Hippopotamus is an extremely fat animal, with a round body, short, stocky legs, and a large head. Female Hippos are usually slightly smaller than the male Hippos. The male Hippo can grow up to twelve feet long and five feet high, and can weigh up to 8,000 pounds. The female Hippo, however, is slightly smaller. The Hippo body is a brownish-gray color on top, and paler on the underside, with pink areas on the face.');
 insert into Taxonomy values('T0040','Oreotragus oreotragus','folivore,frugivore,fruit,fruit','Klipspringers avoid populated areas, such as the Cape Peninsula and parts of the Karoo. Otherwise, they are common in unprotected areas where settlement has not occurred and livestock is not present.');
-insert into Taxonomy values('T0041','Name','Food','Des');
-insert into Taxonomy values('T0042','Name','Food','Des');
-insert into Taxonomy values('T0043','Name','Food','Des');
-insert into Taxonomy values('T0044','Name','Food','Des');
-insert into Taxonomy values('T0045','Name','Food','Des');
-insert into Taxonomy values('T0046','Name','Food','Des');
-insert into Taxonomy values('T0047','Name','Food','Des');
-insert into Taxonomy values('T0048','Name','Food','Des');
-insert into Taxonomy values('T0049','Name','Food','Des');
-insert into Taxonomy values('T0050','Name','Food','Des');
-insert into Taxonomy values('T0051','Name','Food','Des');
-insert into Taxonomy values('T0052','Name','Food','Des');
-insert into Taxonomy values('T0053','Name','Food','Des');
-insert into Taxonomy values('T0054','Name','Food','Des');
-insert into Taxonomy values('T0055','Name','Food','Des');
-insert into Taxonomy values('T0056','Name','Food','Des');
-insert into Taxonomy values('T0057','Name','Food','Des');
-insert into Taxonomy values('T0058','Name','Food','Des');
-insert into Taxonomy values('T0059','Name','Food','Des');
-insert into Taxonomy values('T0060','Name','Food','Des');
 
 
 -- Insert data to Staff Table by Ryan //zookeeper 45 vet 14 information 13 cleaner 27 Manager 1
@@ -647,25 +627,11 @@ grant update(Symthom) on ANIMAL to role_vet;
 
 -- zookeeper role by Nut
 create role role_zookeeper;
-grant select on ANIMAL to role_vet;
-grant insert on ANIMAL to role_vet;
-grant update on ANIMAL to role_vet;
-grant delete on ANIMAL to role_vet;
+grant select,insert,update,delete on ANIMAL to role_zookeeper;
+grant select,insert,update,delete on AREA to role_zookeeper;
+grant select,insert,update,delete on zone to role_zookeeper;
+grant select,insert,update,delete on TAXONOMY to role_zookeeper;
 
-grant select on area to role_area;
-grant insert on area to role_area;
-grant update on area to role_area;
-grant delete on area to role_area;
-
-grant select on zone to role_zone;
-grant insert on zone to role_zone;
-grant update on zone to role_zone;
-grant delete on zone to role_zone;
-
-grant select on TAXONOMY to role_vet;
-grant insert on TAXONOMY to role_vet;
-grant update on TAXONOMY to role_vet;
-grant delete on TAXONOMY to role_vet;
 
 -- manager	role by Run
 create role role_manager;
