@@ -584,24 +584,14 @@ INSERT into Animal values ('AN106','Leola',4,'F','15-NOV-2015','Hippo',NULL,'AR5
 INSERT into Animal values ('AN107','Justice',10,'M','01-MAY-2009','Klipspringer',NULL,'AR5006','T0040');
 
 -- ----------------------- CREATE INDEX -----------------------
-
--- Taxonomy Table by Nut
-
-
 -- Staff Table by Ryan
 create bitmap index staff_position_idx on staff(position);
-
--- Zone Table by Safe
-
 
 -- Area Table by Safe
 create bitmap index area_zonename_idx on AREA(zonename);
 
--- Management Table by Safe
-
 
 -- Animal Table by Run
-
 create index idx_animal_symthom
 on Animal(symthom);
 
@@ -637,23 +627,15 @@ grant select,insert,update,delete on AREA to role_zookeeper;
 grant select,insert,update,delete on zone to role_zookeeper;
 grant select,insert,update,delete on TAXONOMY to role_zookeeper;
 
-
 -- manager	role by Run
 create role role_manager;
 grant role_staff to role_manager;
-
 grant select, insert, update, delete on staff to role_manager;
-
 grant select, insert, update, delete on TAXONOMY to role_manager;
-
 grant select, insert, update, delete on MANAGEMENT to role_manager;
-
 grant insert, update, delete on ANIMAL to role_manager;
-
 grant insert, update, delete on AREA to role_manager;
-
 grant insert, update, delete on ZONE to role_manager;
-
 
 -- ----------------------- CREATE USER -----------------------
 
