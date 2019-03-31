@@ -609,6 +609,11 @@ create index idx_animal_type
 on Animal(type);
 
 -- ----------------------- CREATE ROLE -----------------------
+-- drop role
+drop role role_manager;
+drop role role_staff;
+drop role role_vet;
+drop role role_zookeeper;
 
 -- staff role by Ryan
 create role role_staff;
