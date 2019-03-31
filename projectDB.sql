@@ -652,6 +652,13 @@ grant update(Symthom) on ANIMAL to role_vet;
 -- zookeeper role by Nut
 
 -- manager	role by Run
+create role role_manager;
+grant role_staff to role_manager;
+grant SELECT on staff to role_manager;
+grant insert on staff to role_manager;
+grant UPDATE on staff to role_manager;
+grant delete on staff to role_manager;
+
 
 -- ----------------------- CREATE USER -----------------------
 
