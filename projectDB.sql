@@ -694,7 +694,6 @@ From Animal an join Area ar on an.areaId = ar.areaId
 Group by ar.zoneName
 Having count(an.animalid) > 20;
 
-
 --Transaction 4 (Zookeeper)
 set PAGESIZE 100
 Select DISTINCT(an.type), t.taxonomyName, t.Food, t.description
@@ -702,17 +701,17 @@ From Taxonomy t join Animal an on t.taxonomyId = an.taxonomyId
 Where an.type like 'Gh%';
 
 --Transaction 5 (Vet)
-Update Animal
-set symthom = 'Fishflu'
-where AnimalID = 'AN002';
-
---Transaction 6 (Vet)
 set PAGESIZE 100
 select animalid, animalname, symthom from animal 
 where symthom is not null;
 
---Transaction 7 (Info,Center) --Use index
+--Transaction 6 (Info,Center) --Use index
 set PAGESIZE 100
 Select an.type, ar.areaId, ar.zoneName
 from Animal an join Area ar on an.areaId = ar.areaId
 where an.type = 'Cheetah';
+
+--Transaction 7 (Vet)
+Update Animal
+set symthom = 'Fishflu'
+where AnimalID = 'AN002';
