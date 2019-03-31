@@ -641,6 +641,13 @@ grant create session to staff12;
 grant role_staff to staff12;
 
 -- vet role by Safe
+create role role_vet;
+grant create session to role_vet;
+grant select on ANIMAL to role_vet;
+grant select on TAXONOMY to role_vet;
+grant select on AREA to role_vet;
+grant select on ZONE to role_vet;
+grant update(Symthom) on ANIMAL to role_vet;
 
 -- zookeeper role by Nut
 
