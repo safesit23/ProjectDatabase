@@ -650,7 +650,23 @@ grant select on ZONE to role_vet;
 grant update(Symthom) on ANIMAL to role_vet;
 
 -- zookeeper role by Nut
-
+create role role_zookeeper;
+grant select on area to role_area;
+grant select on zone to role_zone;
+grant select on ANIMAL to role_vet;
+grant select on TAXONOMY to role_vet;
+grant insert on area to role_area;
+grant insert on zone to role_zone;
+grant insert on ANIMAL to role_vet;
+grant insert on TAXONOMY to role_vet;
+grant update on area to role_area;
+grant update on zone to role_zone;
+grant update on ANIMAL to role_vet;
+grant update on TAXONOMY to role_vet;
+grant delete on area to role_area;
+grant delete on zone to role_zone;
+grant delete on ANIMAL to role_vet;
+grant delete on TAXONOMY to role_vet;
 -- manager	role by Run
 create role role_manager;
 grant role_staff to role_manager;
