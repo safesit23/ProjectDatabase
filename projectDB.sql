@@ -504,14 +504,6 @@ INSERT into Animal values ('AN064','Loreen',10,'M','25-DEC-2009','Mexican Wolf',
 
 INSERT into Animal values ('AN065','Maya',8,'M','28-JUN-2011','American Black Bear',NULL,'AR3006','T0021');
 INSERT into Animal values ('AN066','Kenyon',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN108','Orrell',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN109','Reynard',7,'M','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN110','Britton',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN111','Chad',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN112','Shannah',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN113','Cherokee',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN114','Vanessa',2,'F','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN115','Deitra',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
 
 INSERT into Animal values ('AN067','Joandra',4,'M','24-JUN-2015','RIVER OTTER',NULL,'AR3007','T0022');
 INSERT into Animal values ('AN068','Hayley',4,'F','04-JUN-2015','RIVER OTTER',NULL,'AR3007','T0022');
@@ -556,8 +548,7 @@ INSERT into Animal values ('AN094','Chet',4,'F','01-FEB-2015','Water monitor',NU
 
 INSERT into Animal values ('AN095','Hatty',5,'F','01-JAN-2014','Desert Monitor',NULL,'AR4012','T0034');
 
---AfricaZone
---https://www.edreams.com/blog/animals-in-africa-from-a-to-z/
+--AfricaZone from (https://www.edreams.com/blog/animals-in-africa-from-a-to-z/)
 INSERT into Animal values ('AN096','Bethany',11,'M','11-OCT-2008','African wild dog',NULL,'AR5001','T0035');
 INSERT into Animal values ('AN097','Lynne',11,'F','11-JAN-2008','African wild dog',NULL,'AR5001','T0035');
 
@@ -568,6 +559,23 @@ INSERT into Animal values ('AN100','Elle',6,'F','11-JAN-2013','Desert Warthog','
 INSERT into Animal values ('AN101','Messiah',5,'M','01-JAN-2014','Desert Warthog',NULL,'AR5003','T0037');
 
 INSERT into Animal values ('AN102','Maynerd',7,'F','05-FEB-2012','Fennec Fox',NULL,'AR5004','T0038');
+
+INSERT into Animal values ('AN103','Bertina',15,'M','30-OCT-2004','Hippo',NULL,'AR5005','T0039');
+INSERT into Animal values ('AN104','Franklin',12,'F','28-DEC-2007','Hippo',NULL,'AR5005','T0039');
+INSERT into Animal values ('AN105','Arthur',11,'F','28-DEC-2008','Hippo',NULL,'AR5005','T0039');
+INSERT into Animal values ('AN106','Leola',4,'F','15-NOV-2015','Hippo',NULL,'AR5005','T0039');
+
+INSERT into Animal values ('AN107','Justice',10,'M','01-MAY-2009','Klipspringer',NULL,'AR5006','T0040');
+
+INSERT into Animal values ('AN108','Orrell',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN109','Reynard',7,'M','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN110','Britton',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN111','Chad',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN112','Shannah',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN113','Cherokee',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN114','Vanessa',2,'F','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN115','Deitra',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+
 INSERT into Animal values ('AN116','Phillida',7,'F','11-FEB-2012','Fennec Fox',NULL,'AR5004','T0038');--
 INSERT into Animal values ('AN117','Charlotte',7,'F','11-FEB-2012','Fennec Fox',NULL,'AR5004','T0038');
 INSERT into Animal values ('AN118','Daly',4,'M','03-MAY-2015','Fennec Fox',NULL,'AR5004','T0038');
@@ -576,13 +584,6 @@ INSERT into Animal values ('AN120','Siena',2,'M','11-JAN-2017','Fennec Fox',NULL
 INSERT into Animal values ('AN121','Lyn',2,'M','11-JAN-2017','Fennec Fox',NULL,'AR5004','T0038');
 INSERT into Animal values ('AN122','Dixie',1,'M','01-OCT-2018','Fennec Fox',NULL,'AR5004','T0038');
 INSERT into Animal values ('AN123','Cade',1,'F','01-OCT-2018','Fennec Fox',NULL,'AR5004','T0038');
-
-INSERT into Animal values ('AN103','Bertina',15,'M','30-OCT-2004','Hippo',NULL,'AR5005','T0039');
-INSERT into Animal values ('AN104','Franklin',12,'F','28-DEC-2007','Hippo',NULL,'AR5005','T0039');
-INSERT into Animal values ('AN105','Arthur',11,'F','28-DEC-2008','Hippo',NULL,'AR5005','T0039');
-INSERT into Animal values ('AN106','Leola',4,'F','15-NOV-2015','Hippo',NULL,'AR5005','T0039');
-
-INSERT into Animal values ('AN107','Justice',10,'M','01-MAY-2009','Klipspringer',NULL,'AR5006','T0040');
 
 -- ----------------------- CREATE INDEX -----------------------
 -- Staff Table by Ryan
