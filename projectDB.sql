@@ -524,7 +524,7 @@ INSERT into Animal values ('AN064','Loreen',10,'M','25-DEC-2009','Mexican Wolf',
 
 INSERT into Animal values ('AN065','Maya',8,'M','28-JUN-2011','American Black Bear',NULL,'AR3006','T0021');
 INSERT into Animal values ('AN066','Kenyon',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0108','Orrell',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');--
+INSERT into Animal values ('AN0108','Orrell',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
 INSERT into Animal values ('AN0109','Reynard',7,'M','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
 INSERT into Animal values ('AN0110','Britton',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
 INSERT into Animal values ('AN0111','Chad',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
@@ -545,7 +545,7 @@ INSERT into Animal values ('AN072','Sera',1,'M','10-JAN-2018','Gharial',NULL,'AR
 INSERT into Animal values ('AN073','Lorrin',1,'F','04-JAN-2018','Gharial',NULL,'AR4002','T0024');
 
 INSERT into Animal values ('AN074','Frances',4,'M','08-AUG-2014','Philippine crocodile',NULL,'AR4003','T0025');
-INSERT into Animal values ('AN75','Thorburn',4,'F','09-AUG-2014','Philippine crocodile',NULL,'AR4003','T0025');
+INSERT into Animal values ('AN075','Thorburn',4,'F','09-AUG-2014','Philippine crocodile',NULL,'AR4003','T0025');
 
 INSERT into Animal values ('AN076','Colby',4,'M','12-AUG-2015','Dwarf crocodile',NULL,'AR4004','T0026');
 INSERT into Animal values ('AN077','Harding',4,'F','10-MAR-2015','Dwarf crocodile',NULL,'AR4004','T0026');
