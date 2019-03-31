@@ -709,7 +709,7 @@ grant role_vet to staff004;
 create user zookeeperstaff
 identified by zoozoonarukaroinukzoozoo;
 
-grant role role_zookeeper to zookeeperstaff;
+grant role_zookeeper to zookeeperstaff;
 
 -- manager	user by Run
 create user manager1
