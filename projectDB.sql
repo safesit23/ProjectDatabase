@@ -534,6 +534,7 @@ INSERT into Animal values ('AN078','Leo',8,'M','14-FEB-2011','Hawksbill sea turt
 INSERT into Animal values ('AN079','Danielle',8,'F','08-MAR-2011','Hawksbill sea turtle',NULL,'AR4005','T0027');
 INSERT into Animal values ('AN080','Tibby',7,'M','04-SEP-2012','Hawksbill sea turtle',NULL,'AR4005','T0027');
 INSERT into Animal values ('AN081','Lyndi',7,'M','12-SEP-2012','Hawksbill sea turtle',NULL,'AR4005','T0027');
+INSERT into Animal values ('AN082','Lydia',7,'F','12-SEP-2012','Hawksbill sea turtle',NULL,'AR4005','T0027');
 
 INSERT into Animal values ('AN083','Verity',3,'M','16-AUG-2016','Matamata turtle',NULL,'AR4006','T0028');
 INSERT into Animal values ('AN084','Ora',3,'F','24-OCT-2016','Matamata turtle',NULL,'AR4006','T0028');
