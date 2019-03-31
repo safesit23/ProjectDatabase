@@ -597,79 +597,82 @@ create index idx_animal_type on Animal(type);
 
 -- ----------------------- CREATE ROLE -----------------------
 -- drop role
-drop role role_manager;
-drop role role_staff;
-drop role role_vet;
+drop role role_zoomanager;
+drop role role_zoostaff;
+drop role role_zoovet;
 drop role role_zookeeper;
 
 -- staff role by Ryan
-create role role_staff;
-grant select on staff to role_staff;
-grant select on area to role_staff;
-grant select on zone to role_staff;
+create role role_zoostaff;
+grant create session to role_zoostaff;
+grant select on staff to role_zoostaff;
+grant select on area to role_zoostaff;
+grant select on zone to role_zoostaff;
 
 -- vet role by Safe
-create role role_vet;
-grant create session to role_vet;
-grant select on ANIMAL to role_vet;
-grant select on TAXONOMY to role_vet;
-grant select on AREA to role_vet;
-grant select on ZONE to role_vet;
-grant update(Symthom) on ANIMAL to role_vet;
+create role role_zoovet;
+grant create session to role_zoovet;
+grant select on ANIMAL to role_zoovet;
+grant select on TAXONOMY to role_zoovet;
+grant select on AREA to role_zoovet;
+grant select on ZONE to role_zoovet;
+grant update(Symthom) on ANIMAL to role_zoovet;
 
 -- zookeeper role by Nut
 create role role_zookeeper;
+grant create session to role_zookeeper;
 grant select,insert,update,delete on ANIMAL to role_zookeeper;
 grant select,insert,update,delete on AREA to role_zookeeper;
 grant select,insert,update,delete on zone to role_zookeeper;
 grant select,insert,update,delete on TAXONOMY to role_zookeeper;
 
 -- manager	role by Run
-create role role_manager;
-grant role_staff to role_manager;
-grant select, insert, update, delete on staff to role_manager;
-grant select, insert, update, delete on TAXONOMY to role_manager;
-grant select, insert, update, delete on MANAGEMENT to role_manager;
-grant insert, update, delete on ANIMAL to role_manager;
-grant insert, update, delete on AREA to role_manager;
-grant insert, update, delete on ZONE to role_manager;
+create role role_zoomanager;
+grant role_zoostaff to role_zoomanager;
+grant select, insert, update, delete on staff to role_zoomanager;
+grant select, insert, update, delete on TAXONOMY to role_zoomanager;
+grant select, insert, update, delete on MANAGEMENT to role_zoomanager;
+grant insert, update, delete on ANIMAL to role_zoomanager;
+grant insert, update, delete on AREA to role_zoomanager;
+grant insert, update, delete on ZONE to role_zoomanager;
 
 -- ----------------------- CREATE USER -----------------------
 
 -- staff user by Ryan
-create user staff11
+create user zoostaff001
 identified by staff123;
-create user staff12
-identified by staff123;
-grant create session to staff11;
-grant role_staff to staff11;
-grant create session to staff12;
-grant role_staff to staff12;
 
+create user zoostaff002
+identified by staff123;
+
+grant role_zoostaff to zoostaff001;
+grant role_zoostaff to zoostaff002;
 
 -- vet user by Safe
-create user staff003
+create user zoostaff003
 identified by zoo1234;
-create user staff004
+
+create user zoostaff004
 identified by zoo1234;
-grant role_vet to staff003;
-grant role_vet to staff004;
+
+grant role_zoovet to zoostaff003;
+grant role_zoovet to zoostaff004;
 
 -- zookeeper user by Nut
-create user zookeeperstaff
+create user zoostaff005
 identified by zoozoonarukaroinukzoozoo;
 
-grant role_zookeeper to zookeeperstaff;
+create user staff006
+identified by zoozoonarukaroinukzoozoo;
+
+grant role_zookeeper to zoostaff005;
+grant role_zookeeper to zoostaff006;
 
 -- manager	user by Run
-create user manager1
+create user zoomanager001
 identified by manager1234;
 
-create user manager2
-identified by manager1234;
-
-grant role_manager to manager1;
-grant role_manager to manager2;
+grant role_zoomanager to zoomanager001;
 
 -- ----------------------- SQL STATEMENT -----------------------
 --Transaction 1 (Manager) --Use index
