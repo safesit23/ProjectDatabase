@@ -631,6 +631,10 @@ on Animal(type);
 -- ----------------------- CREATE ROLE -----------------------
 
 -- staff role by Ryan
+create role role_staff;
+grant select on staff to role_staff;
+grant select on area to role_area;
+grant select on zone to role_zone;
 
 -- vet role by Safe
 
