@@ -662,7 +662,12 @@ create user staff12
 identity by staff123;
 
 -- vet user by Safe
-
+create user staff003
+identified by zoo1234;
+create user staff004
+identified by zoo1234;
+grant role_vet to staff003;
+grant role_vet to staff004;
 -- zookeeper user by Nut
 
 -- manager	user by Run
