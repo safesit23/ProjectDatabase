@@ -586,19 +586,14 @@ INSERT into Animal values ('AN122','Dixie',1,'M','01-OCT-2018','Fennec Fox',NULL
 INSERT into Animal values ('AN123','Cade',1,'F','01-OCT-2018','Fennec Fox',NULL,'AR5004','T0038');
 
 -- ----------------------- CREATE INDEX -----------------------
--- Staff Table by Ryan
-create bitmap index staff_position_idx on staff(position);
+--drop
+drop index staff_ps_idx;
+drop index area_zonename_idx;
+drop index idx_animal_type;
 
--- Area Table by Safe
+create bitmap index staff_ps_idx on staff(position,salary);
 create bitmap index area_zonename_idx on AREA(zonename);
-
-
--- Animal Table by Run
-create index idx_animal_symthom
-on Animal(symthom);
-
-create index idx_animal_type
-on Animal(type);
+create index idx_animal_type on Animal(type);
 
 -- ----------------------- CREATE ROLE -----------------------
 -- drop role
