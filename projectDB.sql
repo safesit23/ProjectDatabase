@@ -524,14 +524,14 @@ INSERT into Animal values ('AN064','Loreen',10,'M','25-DEC-2009','Mexican Wolf',
 
 INSERT into Animal values ('AN065','Maya',8,'M','28-JUN-2011','American Black Bear',NULL,'AR3006','T0021');
 INSERT into Animal values ('AN066','Kenyon',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0108','Orrell',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0109','Reynard',7,'M','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0110','Britton',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0111','Chad',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0112','Shannah',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0113','Cherokee',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0114','Vanessa',2,'F','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
-INSERT into Animal values ('AN0115','Deitra',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN108','Orrell',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN109','Reynard',7,'M','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN110','Britton',7,'F','29-MAY-2012','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN111','Chad',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN112','Shannah',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN113','Cherokee',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN114','Vanessa',2,'F','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
+INSERT into Animal values ('AN115','Deitra',2,'M','31-JAN-2017','American Black Bear',NULL,'AR3006','T0021');
 
 INSERT into Animal values ('AN067','Joandra',4,'M','24-JUN-2015','RIVER OTTER',NULL,'AR3007','T0022');
 INSERT into Animal values ('AN068','Hayley',4,'F','04-JUN-2015','RIVER OTTER',NULL,'AR3007','T0022');
