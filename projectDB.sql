@@ -672,3 +672,38 @@ grant role_manager to manager1;
 grant role_manager to manager2;
 
 -- ----------------------- SQL STATEMENT -----------------------
+--Transaction 1 (Manager)
+select position, count(staffid), min(salary), max(salary)
+from staff group by position
+Order by count(staffid);
+
+--Transaction 2 (Manager)
+Select a.zoneName, s.staffName
+From Area a join Management m on a.areaId = m.areaId join Staff s on m.staffId = s.staffId
+Where a.zoneName = 'WildZone';
+
+--Transaction 3 (Zookeeper)
+Select ar.zoneName, Count(an.animalid)
+From Animal an join Area ar on an.areaId = ar.areaId
+Group by ar.zoneName
+Having count(an.animalid) > 5;
+
+
+--Transaction 4 (Zookeeper)
+Select DISTINCT(an.type), t.taxonomyName, t.Food, t.description
+From Taxonomy t join Animal an on t.taxonomyId = an.taxonomyId
+Where an.type like 'Gh%';
+
+--Transaction 5 (Vet)
+Update Animal
+set symthom = 'Fishflu'
+where AnimalID = 'AN002';
+
+--Transaction 6 (Vet)
+select animalid, animalname, symthom from animal 
+where symthom is not null;
+
+--Transaction 7 (Info,Center)
+Select an.type, ar.areaId, ar.zoneName
+from Animal an join Area ar on an.areaId = ar.areaId
+where an.type = 'Cheetah';
