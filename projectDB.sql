@@ -719,7 +719,12 @@ create user staff004
 identified by zoo1234;
 grant role_vet to staff003;
 grant role_vet to staff004;
+
 -- zookeeper user by Nut
+create user zookeeperstaff
+identified by zoozoonarukaroinukzoozoo;
+
+grant role role_zookeeper to zookeeperstaff;
 
 -- manager	user by Run
 create user manager1
