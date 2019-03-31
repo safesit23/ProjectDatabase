@@ -678,5 +678,13 @@ grant role_vet to staff004;
 -- zookeeper user by Nut
 
 -- manager	user by Run
+create user manager1
+identified by manager1234;
+
+create user manager2
+identified by manager1234;
+
+grant role_manager to manager1;
+grant role_manager to manager2;
 
 -- ----------------------- SQL STATEMENT -----------------------
