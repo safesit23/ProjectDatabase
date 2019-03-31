@@ -635,6 +635,10 @@ create role role_staff;
 grant select on staff to role_staff;
 grant select on area to role_area;
 grant select on zone to role_zone;
+grant create session to staff11;
+grant role_staff to staff11;
+grant create session to staff12;
+grant role_staff to staff12;
 
 -- vet role by Safe
 
@@ -645,6 +649,10 @@ grant select on zone to role_zone;
 -- ----------------------- CREATE USER -----------------------
 
 -- staff user by Ryan
+create user staff11
+identity by staff123;
+create user staff12
+identity by staff123;
 
 -- vet user by Safe
 
