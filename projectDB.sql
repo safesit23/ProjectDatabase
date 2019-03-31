@@ -633,12 +633,8 @@ on Animal(type);
 -- staff role by Ryan
 create role role_staff;
 grant select on staff to role_staff;
-grant select on area to role_area;
-grant select on zone to role_zone;
-grant create session to staff11;
-grant role_staff to staff11;
-grant create session to staff12;
-grant role_staff to staff12;
+grant select on area to role_staff;
+grant select on zone to role_staff;
 
 -- vet role by Safe
 create role role_vet;
@@ -707,9 +703,14 @@ grant delete on ZONE to role_manager;
 
 -- staff user by Ryan
 create user staff11
-identity by staff123;
+identified by staff123;
 create user staff12
-identity by staff123;
+identified by staff123;
+grant create session to staff11;
+grant role_staff to staff11;
+grant create session to staff12;
+grant role_staff to staff12;
+
 
 -- vet user by Safe
 create user staff003
