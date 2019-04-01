@@ -637,6 +637,14 @@ grant insert, update, delete on AREA to role_zoomanager;
 grant insert, update, delete on ZONE to role_zoomanager;
 
 -- ----------------------- CREATE USER -----------------------
+--drop user
+drop user zoostaff001;
+drop user zoostaff002;
+drop user zoostaff003;
+drop user zoostaff004;
+drop user zoostaff005;
+drop user zoostaff006;
+drop user zoomanager001
 
 -- staff user by Ryan
 create user zoostaff001
