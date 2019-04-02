@@ -638,13 +638,13 @@ grant insert, update, delete on ZONE to role_zoomanager;
 
 -- ----------------------- CREATE USER -----------------------
 --drop user
-drop user zoostaff001;
-drop user zoostaff002;
-drop user zoostaff003;
-drop user zoostaff004;
-drop user zoostaff005;
-drop user zoostaff006;
-drop user zoomanager001
+drop user zoostaff001 cascade;
+drop user zoostaff002 cascade;
+drop user zoostaff003 cascade;
+drop user zoostaff004 cascade;
+drop user zoostaff005 cascade;
+drop user zoostaff006 cascade;
+drop user zoomanager001 cascade;
 
 -- staff user by Ryan
 create user zoostaff001
