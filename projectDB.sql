@@ -691,7 +691,7 @@ Order by count(staffid);
 
 --Transaction 2 (Manager) --Use index
 set PAGESIZE 100
-Select a.zoneName, s.staffName
+Select a.zoneName,a.areaid ,s.staffid, s.staffName
 From Area a join Management m on a.areaId = m.areaId join Staff s on m.staffId = s.staffId
 Where a.zoneName = 'WildZone';
 
