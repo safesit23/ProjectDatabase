@@ -715,7 +715,7 @@ where symthom is not null;
 
 --Transaction 6 (Info,Center) --Use index
 set PAGESIZE 100
-Select an.type, ar.areaId, ar.zoneName
+Select distinct an.type, ar.areaId, ar.zoneName
 from Animal an join Area ar on an.areaId = ar.areaId
 where an.type = 'Cheetah';
 
