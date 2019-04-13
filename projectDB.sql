@@ -697,7 +697,7 @@ Where a.zoneName = 'WildZone';
 
 --Transaction 3 (Zookeeper)
 set PAGESIZE 100
-Select ar.zoneName, Count(an.animalid)
+Select ar.zoneName, Count(an.animalid) as "Number of Animal"
 From Animal an join Area ar on an.areaId = ar.areaId
 Group by ar.zoneName
 Having count(an.animalid) > 20;
