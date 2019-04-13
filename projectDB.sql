@@ -685,7 +685,7 @@ grant role_zoomanager to zoomanager001;
 -- ----------------------- SQL STATEMENT -----------------------
 --Transaction 1 (Manager) --Use index
 set PAGESIZE 100
-select position, count(staffid), min(salary), max(salary)
+select position, count(staffid)as "Number of Staff", min(salary) as "Minimum Salary", max(salary) as "Maximum Salary"
 from staff group by position
 Order by count(staffid);
 
