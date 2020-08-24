@@ -27,13 +27,12 @@ Project INT207 Information Management
    - รู้โซนของสัตว์ว่าอยู่โซนไหนแหล่งใด
    - สามารถ select ตาราง Animal, Area และ Zone ได้   
 ### บทบาท (Role)
-1.	ผู้จัดการ (Zoo Manager)
+1. ผู้จัดการ (Zoo Manager)
    - Select, Insert, Update, Delete ตาราง Animal, Taxonomy, Area, Zone, Management, Staff ได้
-2.	พนักงานดูแลสัตว์ (Zookeeper)
+2. พนักงานดูแลสัตว์
    - Select, Insert, Update, Delete ตาราง Animal, Taxonomy, Area, Zone, Management ได้
-3.	สัตวแพทย์ (Zoo Vet): 
+3. สัตวแพทย์ (Zoo Vet)
    - Select ตาราง Animal, Taxonomy, Area, Zone, Management ได้ 
    - Update column status ในตาราง Animal ได้
-4.	พนักงานทั่วไป (Zoo Staff)
+4. พนักงานทั่วไป (Zoo Staff)
    - Select ตาราง Animal, Area และ Zone ได้
-
